@@ -141,7 +141,7 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 7
 
 | c:cm Beziehung | m:m, m:mc und mc:mc Beziehung |
 |----------------|-------------------------------|
-| ![](./MC-Notation_c_cm.png)  ![](./MC-Notation_m_m.png) <br> ![](./MC-Notation_m_mc.png) <br> ![](./MC-Notation_mc_mc.png) |
+| ![](./MC-Notation_c_cm.png) | ![](./MC-Notation_m_m.png) <br> ![](./MC-Notation_m_mc.png) <br> ![](./MC-Notation_mc_mc.png) |
 
 - UML Klassendiagramm als Datenmodell
 
@@ -149,7 +149,8 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 7
 
 Beispiele:
 
-![](./UML_Klassendiagramm_Bsp1.png)
-![](./UML_Klassendiagramm_Bsp2.png)
+| Beispiel 1 | Beispiel 2 |
+|------------|------------|
+| ![](./UML_Klassendiagramm_Bsp1.png) | ![](./UML_Klassendiagramm_Bsp2.png) |
 
 Quelle: [5-ER-Modellierung-Modellerstellung_Notationen (S. 10-18)](../archiv/insy-game/jahrgang3/5-ER-Modellierung-Modellerstellung_Notationen.pdf)

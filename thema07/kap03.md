@@ -18,8 +18,7 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/
 |---|---|
 | Interne Ebene (internes Schema) | beschreibt die physikalischen Speicherstrukturen der Datenbank (Datenspeicherung und Zugriffspfade). z.B. Index |
 | Konzeptuelle Ebene (konzeptuelles Schema) | - legt das Datenbankschema  (Metadatenmodell) fest<br>- systemunabhängige Datenbeschreibung, d.h. sie ist unabhängig von den eingesetzten Datenbank- und Computersystemen.<br>- Verbirgt Details der physische Speicherung |
-| Externe (View) Ebene (externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe 
-interessiert ist und verbirgt den Rest z.B. SQL Statement |
+| Externe (View) Ebene (externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe interessiert ist und verbirgt den Rest z.B. SQL Statement |
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 9)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
