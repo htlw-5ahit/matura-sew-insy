@@ -1,5 +1,3 @@
-# Matura: Softwareentwicklung & Informationssysteme
-
 ## 1. Prozedurale Programmierung in C
 
 ## 2. Objektorientierte Programmierung in Java

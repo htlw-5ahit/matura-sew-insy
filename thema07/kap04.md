@@ -52,7 +52,7 @@ Quelle: [4-ER-Modellierung-Basics (S. 5-6)](../archiv/insy-game/jahrgang3/4-ER-M
 
 Quelle: [4-ER-Modellierung-Basics (S. 19-21)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-## Was versteht man unter einer schwachen Entität?
+### Was versteht man unter einer schwachen Entität?
 
 Strong Entities
 
@@ -104,6 +104,8 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 7
 ### Was muss ich bei der Umsetzung der Beziehungen beachten?
 
 ### Wie können „schwache Entitäten“ als ER-Diagramm bzw. als Tabellenschema modelliert werden?
+
+
 
 ### Warum dürfen/sollen Beziehungen nicht in Beziehung zu anderen Beziehungen stehen?
 
