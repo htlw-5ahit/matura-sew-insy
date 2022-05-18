@@ -1,36 +1,36 @@
-## 1. Prozedurale Programmierung in C
+## 1. Prozedurale Programmierung in C (HELT)
 
 1. C Grundlagen
 2. Statische und dynamische Datenstrukturen
 3. Verkettete Listen
 
-## 2. Objektorientierte Programmierung in Java
+## 2. Objektorientierte Programmierung in Java (HELT)
 
 1. Datenkapselung und Sichtbarkeit, Zugriffsmethoden
 2. Klassen, Interfaces, Ableitung, Vererbung
 3. dynamische Bindung, Polymorphie, überschreiben/überladen
 
-## 3. Threads-, Netzwerkprogrammierung und Fehlerbehandlung
+## 3. Threads-, Netzwerkprogrammierung und Fehlerbehandlung (HELF)
 
 1. Sockets
 2. Socket mit Threads
 3. Threads und Synchronisierung
 4. Exceptions
 
-## 4. Datenspeicherung in Java
+## 4. Datenspeicherung in Java (HELF)
 
 1. Streams und Reader
 2. Collections-API
 3. Zugriff auf SQL Datenbanken (JDBC)
 
-## 5. GUI-Programmierung, Spieleentwicklung und Entwicklung mobiler Anwendungen unter iOS
+## 5. GUI-Programmierung, Spieleentwicklung und Entwicklung mobiler Anwendungen unter iOS (HELT)
 
 1. JavaFX Grundlagen, SceneBuilder, MVC
 2. JavaFX Properties & Bindings, Multithreading
 3. Java-Swift Vergleich, Swift Sprache, iOS Programmierung mit Swift, SwiftUI
 4. libGDX
 
-## 6. Softwarearchitektur, Design Patterns und mobile Anwendungen am Beispiel Android
+## 6. Softwarearchitektur, Design Patterns und mobile Anwendungen am Beispiel Android (HELF)
 
 1. Softwareentwicklung mit Android
 2. Softwarearchitektur und Entwurfsmuster
