@@ -97,6 +97,7 @@ Quelle: [SQL-Relationenalgebra (S. 22-23)](../archiv/insy-game/jahrgang3/SQL-Rel
 Verweis:
 * [https://www2.informatik.hu-berlin.de/~enseleir/tutorium/Relationen.pdf](https://www2.informatik.hu-berlin.de/~enseleir/tutorium/Relationen.pdf)
 * [https://www.matheretter.de/wiki/eigenschaften-relationen](https://www.matheretter.de/wiki/eigenschaften-relationen)
+* [https://www.cis.uni-muenchen.de/~finkf/mm/slides/10_relationsIII.pdf](https://www.cis.uni-muenchen.de/~finkf/mm/slides/10_relationsIII.pdf)
 
 ### Welche sind die im Relationen-Modell verfügbaren relationalen Operatoren und welche sind die Mengenoperatoren.
 
