@@ -48,11 +48,10 @@ Quelle: [https://www.hdm-stuttgart.de/~riekert/lehre/db-kelz/chap7.htm](https://
 
 * Kartesisches Produkt
 
-| Menge | Beispiel |
-|-------|----------|
-| ![](./MathematischeFunktion_KartesischesProdukt.png) | ![](./MathematischeFunktion_KartesischesProdukt_Beispiel.png) |
+| Menge | Beispiel | |
+|-------|----------|----------|
+| ![](./MathematischeFunktion_KartesischesProdukt.png) | ![](./MathematischeFunktion_KartesischesProdukt_Beispiel.png) | ![](./MathematischeFunktion_KartesischesProdukt_Tabelle.png) |
 
-![](./MathematischeFunktion_KartesischesProdukt_Tabelle.png)
 Hierbei ist die Reihenfolge entscheidend. (1|a) ist somit kein Element von M1 x M2, während (a|1) sehr wohl ein Element von M1 x M2 ist.
 
 * Potenzmenge

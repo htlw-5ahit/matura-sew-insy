@@ -16,9 +16,11 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/
 
 | Schicht | Beschreibung |
 |---|---|
-| Interne Ebene<br>(internes Schema) | beschreibt die physikalischen Speicherstrukturen der Datenbank (Datenspeicherung und Zugriffspfade). z.B. Index |
-| Konzeptuelle Ebene<br>(konzeptuelles Schema) | - legt das Datenbankschema  (Metadatenmodell) fest<br>- systemunabhängige Datenbeschreibung, d.h. sie ist unabhängig von den eingesetzten Datenbank- und Computersystemen.<br>- Verbirgt Details der physische Speicherung |
-| Externe (View) Ebene<br>(externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe interessiert ist und verbirgt den Rest z.B. SQL Statement |
+| Interne Ebene<br>(internes Schema) | - beschreibt die physikalischen Speicherstrukturen der Datenbank (Datenspeicherung und Zugriffspfade). zB. Index<br>- Beeinflussbar durch Indexes bzw. Shards |
+| Konzeptuelle Ebene<br>(konzeptuelles Schema) | - legt das Datenbankschema  (Metadatenmodell) fest<br>- systemunabhängige Datenbeschreibung, d.h. sie ist unabhängig von den eingesetzten Datenbank- und Computersystemen.<br>- Verbirgt Details der physische Speicherung<br>- ER-Modell, Relationenmodell, Normalisieren -> Schema |
+| Externe (View) Ebene<br>(externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe interessiert ist und verbirgt den Rest z.B. SQL Statement<br>- Berechtigungen, kleiner Ausschnitt der Daten für gewisse Benutzer, wie zB. durch Views  |
+
+* Interne Ebene DBMS und darunter Betriebssystem
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 9)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
@@ -63,11 +65,12 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 4)](../archiv/insy-game/jahrgang3/
 
 ### Inwieweit reflektiert sich diese Struktur in den Anwendungsprogrammen?
 
-???
+* Das Anwendungsprogramm richtet sich nach der Struktur.
+* Bei Änderungen der Basistabellen muss das Anwendungsprogramm geändert werden, außer es werden Views verwendet.
 
 ### Wie können komplexe Strukturen vereinfacht dargestellt werden?
 
-???
+Views
 
 ### Was legt ein Datenbankschema fest?
 

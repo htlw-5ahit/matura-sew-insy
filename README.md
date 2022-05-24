@@ -71,4 +71,16 @@
 
 ## 11. Betriebliche Informationssysteme (WINJ)
 
+1. ERP-Systeme
+2. CMS-Systeme
+3. EAN (Europäische Artikelnummerierung), RFID, QR-Codes, ...
+4. Produktionsmanagement (Sourcing, SCM, PPS-Systeme, ...)
+5. Data Warehouse, Business Intelligence, Bigdata
+
 ## 12. Betriebliche Leistungserstellung (WINJ)
+
+1. eBusiness (eCommerce, Portaltechnologie, ...)
+2. IT im Dienstleistungsunternehmen (Banken, Versicherungen, Tourismus)
+3. IT im Handel
+4. IT in der Öffentlichen Verwaltung (eGovernment, eZoll, eLAK, Gesundheitskarte, ...)
+5. Geschäftsprozessmanagement
