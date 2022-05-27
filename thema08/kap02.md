@@ -54,7 +54,7 @@ Quelle: [7-Relationenmodell-Einführung (S. 16)](../archiv/insy-game/jahrgang3/7
 ## Was ein Fremdschlüssel?
 
 Bezieht sich ein(e) Attribut(gruppe) einer Relation auf den Primärschlüssel einer anderen, so wird es (sie) in der referenzierenden Relation Fremdschlüssel (foreign key) genannt.
-![](./fremdschuessel.png)
+![](./Fremdschuessel.png)
 
 Quelle: [7-Relationenmodell-Einführung (S. 23)](../archiv/insy-game/jahrgang3/7-Relationenmodell-Einfu%CC%88hrung.pdf)
 

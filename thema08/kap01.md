@@ -52,7 +52,7 @@ Quelle: [https://www.hdm-stuttgart.de/~riekert/lehre/db-kelz/chap7.htm](https://
 |-------|----------|----------|
 | ![](./MathematischeFunktion_KartesischesProdukt.png) | ![](./MathematischeFunktion_KartesischesProdukt_Beispiel.png) | ![](./MathematischeFunktion_KartesischesProdukt_Tabelle.png) |
 
-Hierbei ist die Reihenfolge entscheidend. (1|a) ist somit kein Element von M1 x M2, während (a|1) sehr wohl ein Element von M1 x M2 ist.
+Hierbei ist die Reihenfolge entscheidend. `(1|a)` ist somit kein Element von `M1 x M2`, während `(a|1)` sehr wohl ein Element von `M1 x M2` ist.
 
 * Potenzmenge
     * Eine Potenzmenge P(M) enthält alle möglichen Teilmengen von M, sowie die leere Menge.
@@ -75,12 +75,12 @@ Quelle: [SQL-Relationenalgebra (S. 11-21)](../archiv/insy-game/jahrgang3/SQL-Rel
 * Relation
     * Eine Relation ist allgemein eine Beziehung, die zwischen Dingen bestehen kann, d.h. Elemente einer Menge werden zu einem oder mehreren Elementen einer anderen (zweiten) Menge in Beziehung gesetzt.
     * Eine Relation ist demnach eine Teilmenge des Kreuzprodukts der beiden Mengen.
-    * Beispiel: Gegeben ist die Menge A = {0,2,3,8,9} und B = {3,4,16,19} und eine Relation R zwischen A und B mit R: ist Teiler von = { (2,4),(2,16),(3,3),(8,16)}
+    * Beispiel: Gegeben ist die Menge `A = {0,2,3,8,9}` und `B = {3,4,16,19}` und eine Relation R zwischen A und B mit R: ist Teiler von = `{(2,4),(2,16),(3,3),(8,16)}`
 
 * Funktion
     * Eine Relation R wird zur Funktion f zwischen zwei Mengen A und B, wenn jedes Element x A genau ein Element y B zum Partner hat (x|y) f.
     * Eine Funktion drückt die Abhängigkeit einer Größe von einer anderen aus. Traditionell werden Funktionen als Regel oder Vorschrift definiert, die eine Eingangsgröße (Argument, meist x) in eine Ausgangsgröße (Funktionswert, meist y) transformiert (überführt).
-    * Einfache Funktion: y = 2x + 3
+    * Einfache Funktion: `y = 2x + 3`
 
 Quelle: [SQL-Relationenalgebra (S. 22-23)](../archiv/insy-game/jahrgang3/SQL-Relationenalgebra.pdf)
 
