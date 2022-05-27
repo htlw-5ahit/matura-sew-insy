@@ -115,7 +115,7 @@ Beispiel:
 * Sie zählen Regal Nr. 1, ich Regal Nr. 2. Dies entspricht dem Vorgang „map“ (erfassen).
 * Jetzt addieren wir unsere beiden Zählungen. Dies entspricht dem Vorgang „reduce“ (reduzieren).
 
-![](./Map_Reduce.png)
+<img src="./Map_Reduce.png" width="600">
 
 Quelle: [NoSQL-Teil1 (S. 44-46)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
@@ -128,7 +128,7 @@ Quelle: [NoSQL-Teil1 (S. 44-46)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 * Rich, document-based queries (CRUD Operationen)
 * Map/Reduce Unterstützung
 
-![](./MongoDB_Datenbankstruktur.png)
+<img src="./MongoDB_Datenbankstruktur.png" width="600">
 
 Quelle: [MongoDB_1 (S. 4)](../archiv/insy-game/jahrgang5/MongoDB_1.pdf)
 

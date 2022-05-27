@@ -53,7 +53,7 @@
 
 ## 9. Relationale Abfragesprachen, Prozedurale Erweiterungen und Datenbankanbindung (GAME)
 
-1. [Prinzipien, Kategorien und Einsatz](theme09/kap01.md)
+1. [Prinzipien, Kategorien und Einsatz](thema09/kap01.md)
 2. [Einsatz von MongoDB](thema09/kap02-03.md)
 3. [Replikation und Sharding](thema09/kap02-03.md)
 4. [Grundlagen Web-Programmierung und Servlets](thema09/kap04-08.md)
