@@ -2,7 +2,7 @@
 
 Allg: Darstellung in Klassendiagramm
 
-##Klassen
+## Klassen
 * Baupläne nach denen Objekte (Instanzen von Klassen) modelliert werden
 * Konstruktor, Methoden und Variablen formen zusammen eine Klasse
 * Programmteile/Klassen wiederverwenden
@@ -31,7 +31,7 @@ gebraucht werden.
             //Die Enumeration wird in Java wie eine lokale Klasse behandelt
             enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
 
-##Modifier
+## Modifier
 * private
 * protected
 * public
@@ -57,14 +57,14 @@ gebraucht werden.
     * Beim Zugriff auf eine volatile Variable werden alle zwischengespeicherten Kopien der Variablen im Hauptspeicher synchronisiert.
     * Volatile kann nur auf Instanzvariablen angewendet werden, die vom Typ Objekt oder privat sind.
 
-##Interfaces
+## Interfaces
 * Interface = Schnittstelle
 * 1 Klasse kann nur von 1er Klasse erben aber mehrere Interfaces implementieren
     * Ersatzkonstrukt für Mehrfachvererbung
 * Stellt Konstanten und public abstract Methoden (Methodendeklarationen) zur Verfügung, die dann in der Klasse ausprogrammiert werden müssen
 * Eine Klasse kann ein Interface mittels `public class ClassX implements InterfaceY` implementieren
 
-##Vererbung/Ableitung
+## Vererbung/Ableitung
 * In Java kann eine abgeleitete Klasse nur genau eine Vater-/Basisklasse haben.
 * Das Erben von mehr als einer Superklasse (Mehrfachvererbung) ist nicht möglich.
 * Die Klassen können beliebig tief geschachtelt werden, wobei ganz oben die Klasse Object steht
@@ -74,7 +74,7 @@ gebraucht werden.
 * Geerbte Variablen und Methoden können überlagert werden (@Overload) (siehe Kapitel 03)
 * Eine Klasse kann mittels `public class ClassX extends ClassY` von einer Klasse ableiten
 
-##Abstract Class/Method
+## Abstract Class/Method
 * Abstrakte Klassen können nicht instanziert werden
 * Enthalten abstrakte Methoden, welche erst später von abgeleiteten Klassen implementiert werden
 * Abstrakte Methoden sind Methoden, die ohne Implementierung angegeben werden
