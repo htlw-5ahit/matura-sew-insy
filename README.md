@@ -1,15 +1,15 @@
 ## 1. Prozedurale Programmierung in C (HELF)
 
-1. C Grundlagen
-2. Statische und dynamische Datenstrukturen
-3. Verkettete Listen
-4. Dateien und Fehlerbehandlung
+1. [C Grundlagen](./thema01/kap01.md)
+2. [Statische und dynamische Datenstrukturen](./thema01/kap02-03.md)
+3. [Verkettete Listen](./thema01/kap02-03.md)
+4. [Dateien und Fehlerbehandlung](./thema01/kap04.md)
 
 ## 2. Objektorientierte Programmierung in Java (HELF)
 
-1. Datenkapselung und Sichtbarkeit, Zugriffsmethoden
-2. Klassen, Interfaces, Ableitung, Vererbung
-3. dynamische Bindung, Polymorphie, überschreiben/überladen
+1. [Datenkapselung und Sichtbarkeit, Zugriffsmethoden](./thema02/kap01.md)
+2. [Klassen, Interfaces, Ableitung, Vererbung](./thema02/kap02.md)
+3. [dynamische Bindung, Polymorphie, überschreiben/überladen](./thema02/kap03.md)
 
 ## 3. Threads-, Netzwerkprogrammierung und Fehlerbehandlung (HELT)
 
