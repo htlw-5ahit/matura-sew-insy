@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="506.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controller.Controller">
+   <children>
+      <Button layoutX="100.0" layoutY="133.0" mnemonicParsing="false" onAction="#pressedDelete" prefHeight="63.0" prefWidth="159.0" style="-fx-background-color: #637CBF#637CBF;" text="Del">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="133.0" mnemonicParsing="false" onAction="#pressedDivision" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text="/">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="206.0" mnemonicParsing="false" onAction="#pressedSeven" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="7">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="206.0" mnemonicParsing="false" onAction="#pressedEight" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="8">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="206.0" mnemonicParsing="false" onAction="#pressedNine" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="9">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="206.0" mnemonicParsing="false" onAction="#pressedTimes" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text="x">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="278.0" mnemonicParsing="false" onAction="#pressedFour" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="4">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="278.0" mnemonicParsing="false" onAction="#pressedFive" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="5">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="278.0" mnemonicParsing="false" onAction="#pressedSix" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="6">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="278.0" mnemonicParsing="false" onAction="#pressedMinus" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text="-">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="351.0" mnemonicParsing="false" onAction="#pressedOne" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="1">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="351.0" mnemonicParsing="false" onAction="#pressedTwo" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="2">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="351.0" mnemonicParsing="false" onAction="#pressedThree" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="3">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="351.0" mnemonicParsing="false" onAction="#pressedPlus" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text="+">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="424.0" mnemonicParsing="false" onAction="#pressedNumberMinus" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text="+/-">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="424.0" mnemonicParsing="false" onAction="#pressedZero" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #7E9DF2#7E9DF2;" text="0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="424.0" mnemonicParsing="false" onAction="#pressedComma" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #C8D4F4#C8D4F4;" text=",">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="424.0" mnemonicParsing="false" onAction="#pressedResult" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #637CBF#637CBF;" text="=">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Label fx:id="resultLabel" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" opacity="0.9" prefHeight="106.0" prefWidth="331.0" style="-fx-background-color: #3C4A73#3C4A73;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="133.0" mnemonicParsing="false" onAction="#pressedCancel" prefHeight="63.0" prefWidth="72.0" style="-fx-background-color: #637CBF#637CBF;" text="C">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
