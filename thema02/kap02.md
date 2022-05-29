@@ -28,7 +28,8 @@ gebraucht werden.
     * Aufzählungsklasse
     * Bsp:
 
-            ```java //Die Enumeration wird in Java wie eine lokale Klasse behandelt
+            ```java 
+            //Die Enumeration wird in Java wie eine lokale Klasse behandelt
             enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}```
 
 ## Modifier
