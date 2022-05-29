@@ -1,4 +1,4 @@
-# Softwarearchitektur und Entwurfsmuster
+# 6.2. Softwarearchitektur und Entwurfsmuster
 
 * [Entwurfsmuster](#erzeugungsmuster)
     * [Singelton](#singelton)
@@ -70,9 +70,9 @@
 - kompatiblen Stellvertreter für ein dahinter verborgenes Objekt
 - Zugriffe auf das verborgene Objekt erfolgen indirekt über den Proxy
 - Vorteile:
-	- ein entferntes Objekt in einem anderen Adressraum soll aufgerufen werden 
+	- ein entferntes Objekt in einem anderen Adressraum soll aufgerufen werden
 	- die aufwändige Erzeugung eines Objekts bis zur Verwendung soll verzögert werden
-	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt soll geprüft werden 
+	- die Berechtigung vor dem Zugriff auf ein schützenswertes Objekt soll geprüft werden
 - [↪ Übungsbeispiel](https://github.com/htlw-5ahit/htlw5-sew/tree/main/06_proxy_logger)
 
 ![Proxy UML Diagramm](https://de-academic.com/pictures/dewiki/112/proxy_flexibel.png)
@@ -80,10 +80,10 @@
 ### Adapter
 
 - Adapter stellt ein – evtl. vorhandenes - Interface in einem anderem, davon abweichenden Interface zur Verfügung, sodass eine nahtlose Einbindung in einen inkompatiblen Client möglich wird.
-- In Umgebungen mit Einfachvererbung geschieht dies durch Delegation an ein referenziertes Objekt (Adaptee) des zu integrierenden Typs. 
+- In Umgebungen mit Einfachvererbung geschieht dies durch Delegation an ein referenziertes Objekt (Adaptee) des zu integrierenden Typs.
 - Beispiel: TextView (UI-Element) kann als StringBuffer betrachteet werden.
 - Vorteile:
-	- zwei oder mehr inkompatible Typen interagieren 
+	- zwei oder mehr inkompatible Typen interagieren
 	- bestehende inkompatible Funktionalität soll anderweitig genutzt werden
 - [↪ Übungsbeispiel](https://github.com/htlw-5ahit/htlw5-sew/tree/main/07_adapter_buffered-reader)
 
