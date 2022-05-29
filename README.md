@@ -13,23 +13,23 @@
 
 ## 3. Threads-, Netzwerkprogrammierung und Fehlerbehandlung (HELT)
 
-1. Sockets
-2. Socket mit Threads
-3. Threads und Synchronisierung
-4. Exceptions
+1. [Sockets](./thema03/kap01.md)
+2. [Socket mit Threads](./thema03/kap02.md)
+3. [Threads und Synchronisierung](./thema03/kap03.md)
+4. [Exceptions](./thema03/kap04.md)
 
 ## 4. Datenspeicherung in Java (HELT)
 
-1. Streams und Reader
-2. Collections-API
-3. Zugriff auf SQL Datenbanken (JDBC)
+1. [Streams und Reader](./thema04/kap01.md)
+2. [Collections-API](./thema04/kap02.md)
+3. [Zugriff auf SQL Datenbanken (JDBC)](./thema04/kap03.md)
 
 ## 5. GUI-Programmierung, Spieleentwicklung und Entwicklung mobiler Anwendungen unter iOS (HELT)
 
-1. JavaFX Grundlagen, SceneBuilder, MVC
-2. JavaFX Properties & Bindings, Multithreading
-3. Java-Swift Vergleich, Swift Sprache, iOS Programmierung mit Swift, SwiftUI
-4. libGDX
+1. [JavaFX Grundlagen, SceneBuilder, MVC](./thema05/kap01.md)
+2. [JavaFX Properties & Bindings, Multithreading](./thema05/kap02.md)
+3. [Java-Swift Vergleich, Swift Sprache, iOS Programmierung mit Swift, SwiftUI](./thema05/kap03.md)
+4. [libGDX](./thema05/kap04.md)
 
 ## 6. Softwarearchitektur, Design Patterns und mobile Anwendungen am Beispiel Android (HELF)
 
