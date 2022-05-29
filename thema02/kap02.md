@@ -20,9 +20,7 @@ gebraucht werden.
     * Eine Wrapper-Klasse kapselt die jeweilige primitive Variable in einem sehr einfachen Objekt
     * Bsp:
            boolean -> java.lang.Boolean
-
            int -> java.lang.Integer
-
            char -> java.lang.Character
 
 
