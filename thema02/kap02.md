@@ -30,7 +30,8 @@ gebraucht werden.
 
             ```java 
             //Die Enumeration wird in Java wie eine lokale Klasse behandelt
-            enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}```
+            enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
+            ```
 
 ## Modifier
 * private
