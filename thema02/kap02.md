@@ -19,19 +19,19 @@ gebraucht werden.
 * Wrapper Klassen
     * Eine Wrapper-Klasse kapselt die jeweilige primitive Variable in einem sehr einfachen Objekt
     * Bsp:
-           boolean -> java.lang.Boolean
-           int -> java.lang.Integer
-           char -> java.lang.Character
+       * boolean -> java.lang.Boolean
+       * int -> java.lang.Integer
+       * char -> java.lang.Character
 
 
 * Enumerations
     * Aufzählungsklasse
     * Bsp:
 
-            ```java 
-            //Die Enumeration wird in Java wie eine lokale Klasse behandelt
-            enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
-            ```
+```java 
+//Die Enumeration wird in Java wie eine lokale Klasse behandelt
+enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
+```
 
 ## Modifier
 * private
@@ -43,8 +43,8 @@ gebraucht werden.
     * Auf statische Attribute/Methoden kann zugegriffen werden, ohne ein Objekt einer Klasse zu erstellen.
     * Alle Instanzen der Klasse teilen sich die statischen Attribute/Methoden
     * Methoden, die nicht vom Zustand des Objekts abhängen, sondern in irgendeiner Weise mit der Klasse selbst verbunden sind, können static gemacht werden
-        * String.valueOf() hängt nicht von einem String ab -> ist eine static Methode
-        * myString.length() hängt vom String ab -> nicht static
+        * `String.valueOf()` hängt nicht von einem String ab -> ist eine static Methode
+        * `myString.length()` hängt vom String ab -> nicht static
     * Zugriff mittels `Klassenname.Variable` oder `Klassenname.Methode()`  
 * final
     * non-access Modifier
