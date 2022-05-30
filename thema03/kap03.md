@@ -1,22 +1,23 @@
 # 3.3. Threads und Synchronisierung
 
 ## Synchronized
-* Java verwendet die Methode synchronized(), um einen Monitor zu erstellen, und jedes Objekt kann als Monitor dienen. 
+* Java verwendet die Methode `synchronized()`, um einen Monitor zu erstellen
+* Jedes Objekt kann als Monitor dienen
 * Ein Monitor verwendet eine Funktion, die mit einem bestimmten Datenelement/Variable als Sperre verbunden ist. 
 * Wenn ein Thread versucht, auf diese Daten zuzugreifen und sie zu ändern, schränkt der Monitor diesen Prozess ein und hält ihn fest, bis der aktuelle Thread seine Ausführung beendet hat.
 * Bsp.:
 
 ```java
 synchronized void showMsg(String  msg){ //synchronized method  
-		for(int i=1;i<=5;i++){  
-			System.out.println(msg);  
-			try{  
-				Thread.sleep(500);  
-			}catch(Exception e){
-				System.out.println(e);
-			}  
-		}  
-	}  
+    for (int i=1; i<=5; i++) {  
+        System.out.println(msg);  
+        try {  
+            Thread.sleep(500);  
+        } catch (Exception e) {
+            System.out.println(e);
+        }  
+    }  
+}  
 ```
 
 https://www.delftstack.com/howto/java/monitor-in-java/
@@ -62,12 +63,12 @@ public class SharedObject {
 
 ## Synchronized Collections
 * Thread-Safe Collections
-* synchronizedCollection()
-* synchronizedList()
-* synchronizedMap()
-* synchronizedSortedMap()
-* synchronizedSet()
-* synchronizedSortedSet()
+    * `synchronizedCollection()`
+    * `synchronizedList()`
+    * `synchronizedMap()`
+    * `synchronizedSortedMap()`
+    * `synchronizedSet()`
+    * `synchronizedSortedSet()`
 * Bsp.:
 
 ```java
@@ -82,24 +83,11 @@ Collection<Integer> syncCollection = Collections.synchronizedCollection(new Arra
 	* Standardimplementierung: ConcurrentSkipListMap
 
 ## Unterschied Concurrent/Synchornized Collections
-* Collections.synchronizedCollection() sollte verwendet werden, wenn Konsistenz am Wichtigsten ist
-	* Das gesamte Objekt wird für lese- und Schreiboperationen gelockt
-* ConcurrentCollections sollten verwendet werden, wenn die performance am Wichtigsten ist
+* `Collections.synchronizedCollection()` sollte verwendet werden, wenn Konsistenz am wichtigsten ist
+	* Das gesamte Objekt wird für Lese- und Schreiboperationen gelockt
+* ConcurrentCollections sollten verwendet werden, wenn die Performance am wichtigsten ist
 	* Die Collection wird in Segmente geteilt und sie können einzeln gelockt werden, um mehrere Veränderungen auf einmal durchzuführen
 
 # Semaphoren
 * Verwendet um die Anzahl der gleichzeitigen Threads, die auf eine bestimmte Ressource zugreifen, zu begrenzen
-* Bsp.:
-
-HIER BEISPIEL EINFÜGEN
-
-HIER BEISPIEL EINFÜGEN
-
-HIER BEISPIEL EINFÜGEN
-
-HIER BEISPIEL EINFÜGEN
-
-HIER BEISPIEL EINFÜGEN
-
-HIER BEISPIEL EINFÜGEN
-
+* Bsp.: [Semaphoren Beispiel](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/semaphoren)

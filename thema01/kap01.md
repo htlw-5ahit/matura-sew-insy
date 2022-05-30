@@ -22,8 +22,8 @@ danach vom Linker mit Bibliotheken zu einem ausführbaren Programm gebunden
 Präprozessordirektive (Ganz oben #define, #include, usw.) auswertet
 
 ## H&C-File
-* C-Quellcode setzt sich  aus Quellcode-Dateien (Endung: .c) zusammen, die Header-Dateien mittels #include einbinden (Endung: .h);
-*  `.c`-File: SourceCode/Programm
+* C-Quellcode setzt sich  aus Quellcode-Dateien (`.c`) zusammen, die Header-Dateien mittels `#include` einbinden (`.h`);
+*  `.c`-File: SourceCode
 *  `.h`-File: Funktionsdeklarationen/Prototypen, Konstanten, usw., die in mehreren `.c`-Files verwendet werden
 
 ## Primitive Datentypen (Datentyplänge, Unsigned/Signed)
@@ -66,22 +66,23 @@ Präprozessordirektive (Ganz oben #define, #include, usw.) auswertet
 
 ## Prototypen
 * Deklaration einer Funktion – inklusive Angaben über Anzahl, Typ der Parameter und Typ des Rückgabewertes – getrennt von ihrer Implementierung
+
 ```c
 // enthält unter anderem den Funktionsprototypen für printf():
 #include <stdio.h>
 
 // Prototypdeklaration, die Parameterbezeichner sind optional:
-double summe( double zahl1, double zahl2 );
+double summe(double zahl1, double zahl2);
 
-int main( void ) {
+int main(void) {
     // Aufruf der Funktion; ohne Funktionsprototyp wären hier
     // Argumenttyp (int) und Parametertyp (double) inkompatibel:
-    printf( "2+3=%g\n", summe( 2, 3 ) );
+    printf("2 + 3 = %g\n", summe(2, 3));
     return 0;
 }
 
 // Definition der Funktion:
-double summe( double zahl1, double zahl2 ) {
+double summe(double zahl1, double zahl2) {
     return zahl1 + zahl2;
 }
 ```

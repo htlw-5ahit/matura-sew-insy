@@ -10,11 +10,8 @@ Allg: Darstellung in Klassendiagramm
 
 * Innere Klassen
     * Klassen und Interfaces können in Java grundsätzlich ineinander verschachtelt werden.
-    * Eine "Inner Class" wird innerhalb des Codeblocks einer anderen
-Klasse vereinbart.
-    * Ziel: Definition von Hilfsklassen möglichst nahe an der Stelle, wo sie
-gebraucht werden.
-
+    * Eine "Inner Class" wird innerhalb des Codeblocks einer anderen Klasse vereinbart.
+    * Ziel: Definition von Hilfsklassen möglichst nahe an der Stelle, wo sie gebraucht werden.
 
 * Wrapper Klassen
     * Eine Wrapper-Klasse kapselt die jeweilige primitive Variable in einem sehr einfachen Objekt
@@ -22,7 +19,6 @@ gebraucht werden.
        * boolean -> java.lang.Boolean
        * int -> java.lang.Integer
        * char -> java.lang.Character
-
 
 * Enumerations
     * Aufzählungsklasse
@@ -48,7 +44,8 @@ enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
     * Zugriff mittels `Klassenname.Variable` oder `Klassenname.Methode()`  
 * final
     * non-access Modifier
-    * Macht eine Klasse, Methode oder Variable unveränderbar, nachdem diese einmal initialisieren wurden. -> Nicht vererbbar oder überschreibbar
+    * Macht eine Klasse, Methode oder Variable unveränderbar, nachdem diese einmal initialisieren wurden.
+    * Nicht vererbbar oder überschreibbar
 * transient
     * non-access Modifier
     * Kennzeichnet Variablen, die bei der Serialisierung eines Objektes nicht mit gespeichert werden sollen
@@ -63,7 +60,7 @@ enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
 * Interface = Schnittstelle
 * 1 Klasse kann nur von 1er Klasse erben aber mehrere Interfaces implementieren
     * Ersatzkonstrukt für Mehrfachvererbung
-* Stellt Konstanten und public abstract Methoden (Methodendeklarationen) zur Verfügung, die dann in der Klasse ausprogrammiert werden müssen
+* Stellt Konstanten und abstract Methoden (Methodendeklarationen) zur Verfügung, die dann in der Klasse ausprogrammiert werden müssen
 * Eine Klasse kann ein Interface mittels `public class ClassX implements InterfaceY` implementieren
 
 ## Vererbung/Ableitung

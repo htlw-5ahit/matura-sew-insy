@@ -7,6 +7,7 @@
 * Bsp.: Überschreiben von Methoden
 
 * Anwendungsbeispiel:
+
 ```java
 class School {
     public void ringBell() {
@@ -19,7 +20,7 @@ class Classroom extends School {
         System.out.println("Ringing the classroom bell...");
     }
 }
-public class Main {
+class Main {
     public static void main(String[] args) {
         School s1 = new School(); //Type is School and object is of School
         s1.ringBell();
@@ -29,6 +30,12 @@ public class Main {
         s2.ringBell();
     }
 }
+
+/* Output:
+Ringing the school bell...
+Ringing the classroom bell...
+Ringing the classroom bell...
+*/
 ```
 
 ## Methoden (Signatur, Parameter, Überschreiben (Override), Overload)
@@ -52,11 +59,16 @@ class SubClass extends ParentClass {
 	public void displayMethod(String msg) {
 		System.out.println("Message is: "+ msg);
 	}
+
 	public static void main(String args[]) {
 		SubClass obj = new SubClass();
 		obj.displayMethod("Hey!!");
 	}
 }
+
+/* Output:
+Message is: Hey!!
+*/
 ```
 
 ### Overload
@@ -91,9 +103,9 @@ for (int i = 0; i < tiere.length; i++) {
 ```
 
 ## Generics (<>, z.B Task/Service, Collections)
-* Werden mit <> gekennzeichnet
-* In <> kann bei der Verwendung eine beliebige Klasse eingegeben werden
-* In <> steht Variablenname, z.B. < E >
+* Werden mit `<>` gekennzeichnet
+* In `<>` kann bei der Verwendung eine beliebige Klasse eingegeben werden
+* In `<>` steht Variablenname, z.B. `< E >`
 * Verwendet bei:
 	* Task/Service
 	* Collections

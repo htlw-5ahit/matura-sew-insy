@@ -1,13 +1,13 @@
 # 3.4. Exceptions
 
 ## Verschachteln 
-* Es kann von einer Excpetion die obere Vererbungsstruktur gefangen werden, um möglichs wenige catch{} Blöcke zu haben.
-* z.B. Kann eine IOExcpetion und eine NFException als Exception gefangen werden, und in einem einzigen catch Block gefangen und behandelt werden.
+* Es kann von einer Exception die obere Vererbungsstruktur gefangen werden, um möglichs wenige `catch{...}`-Blöcke zu haben.
+* z.B. Kann eine IOExcpetion und eine NFException als Exception gefangen werden, und in einem einzigen catch-Block gefangen und behandelt werden.
 
 ## Throwen von Exceptions
-* Exceptions können mit dem Schlüsselwort throw im Anhang einer Methode, einer Klasse oder als neue Excpetion an die Klasse/Methode geworfen werden, welche die Methode aufruft.
-* Diese Klasse kann die Excpetion entweder weiterwerfen, oder behandeln.
-* Beispiele.:
+* Exceptions können mit dem Schlüsselwort `throw` im Anhang einer Methode, einer Klasse oder als neue Exception an die Klasse/Methode geworfen werden, welche die Methode aufruft.
+* Diese Klasse kann die Excpetion entweder weiterwerfen oder behandeln.
+* Beispiele:
 
 ```java
 throw new EmptyStackException();
@@ -18,7 +18,7 @@ void testMethod() throws ArithmeticException
 ```
 
 ## CustomExceptions
-* Durch ableiten von Exception kann eine eigen Exception erstellt werden
+* Durch Ableiten von Exception kann eine eigene Exception erstellt werden.
 * Bsp.:
 
 ```java
@@ -47,5 +47,5 @@ public class HandledException extends Exception {
 
 ## Wo sollen sie behandelt werden?
 * Exceptions sollten entweder
-	* In der Main behandelt werden, falls keine GUI vorhanden ist
-	* In dem Controller behandelt werden und dem User grafisch Bescheid gegeben werden
+	* In der Main-Klasse behandelt werden, falls keine GUI vorhanden ist
+	* Im Controller behandelt werden und dem User grafisch Bescheid gegeben werden
