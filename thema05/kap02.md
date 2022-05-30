@@ -378,11 +378,11 @@ public class CounterService extends Service<Integer>{
 * ScheduledService definieren
 
 ```java
-public class CounterService extends <span style="color:red">ScheduledService</span><Integer>{
+public class CounterService extends ScheduledService<Integer>{
    private final int max;
    public CounterService(int max) {
-	 <span style="color:red">super();
-	 setPeriod(Duration.seconds(2));</span>
+	 super();
+	 setPeriod(Duration.seconds(2));
      this.max = max;
    }
    @Override
