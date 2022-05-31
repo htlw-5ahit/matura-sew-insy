@@ -1,4 +1,4 @@
-# 11.3 EAN, RFID
+# 11.3. EAN, RFID, QR-Code
 
 ## QR-Code
 * Quick Response
