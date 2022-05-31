@@ -2,9 +2,10 @@
 
 ## Grundsätzlich
 * Kompakte, strukturierte, typisierte, hardwarenahe, portable, höhere Programmiersprache
-* Ein-/Ausgabe ist nicht im Befehlsumfang enthalten -> Funktionen der
-Standardbibliothek
+* Ein-/Ausgabe ist nicht im Befehlsumfang enthalten -> Funktionen der Standardbibliothek
 * Ein Zeiger repräsentiert eine Adresse und nicht wie eine Variable einen Wert. Will man auf den Wert der Adresse zugreifen, auf die ein Zeiger zeigt, muss * vor den Namen gesetzt werden.
+* (Software)Bibliotheken werden mit #include <...> hinzugefügt
+* ![](./Kompiliervorgang.jpg)
 
 ```c
 int zahl = 7;
@@ -16,10 +17,8 @@ printf("Zeiger-Wert: %d\n", *zeiger);
 ## Quellcode-Übersetzen-Syntax-Semantik
 * C-Quellcode muss Grammatik (Syntax) & fachliche Anforderung (Semantik) erfüllen
 * Semikolon am Ende & Kommentare wie in Java
-* Geschriebener Quellcode wird vom Compiler in Objektcode übersetzt und
-danach vom Linker mit Bibliotheken zu einem ausführbaren Programm gebunden
-* Der Compiler ruft vor der eigentlichen Übersetzung den Präprozessor auf, der die
-Präprozessordirektive (Ganz oben #define, #include, usw.) auswertet
+* Geschriebener Quellcode wird vom Compiler in Objektcode übersetzt und danach vom Linker mit Bibliotheken zu einem ausführbaren Programm gebunden
+* Der Compiler ruft vor der eigentlichen Übersetzung den Präprozessor auf, der die Präprozessordirektive (Ganz oben #define, #include, usw.) auswertet
 
 ## H&C-File
 * C-Quellcode setzt sich  aus Quellcode-Dateien (`.c`) zusammen, die Header-Dateien mittels `#include` einbinden (`.h`);
