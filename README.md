@@ -72,9 +72,9 @@
 
 ## 11. Betriebliche Informationssysteme (WINJ)
 
-1. ERP-Systeme
-2. CMS-Systeme
-3. EAN (Europäische Artikelnummerierung), RFID, QR-Codes, ...
+1. [ERP-Systeme](./thema11/kap01.md)
+2. [CMS-Systeme](./thema11/kap02.md)
+3. [EAN (Europäische Artikelnummerierung), RFID, QR-Codes, ...](./thema11/kap03.md)
 4. Produktionsmanagement (Sourcing, SCM, PPS-Systeme, ...)
 5. Data Warehouse, Business Intelligence, Bigdata
 
