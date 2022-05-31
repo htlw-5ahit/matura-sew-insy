@@ -3,7 +3,6 @@
 ## Allgemein
 * Standard-Schnittstelle für Zugriff auf relationale DB mittels SQL und Java
 * Der jeweilige Treiber muss heruntergeladen und in IntelliJ unter Project Structure - Settings - Libraries hinzugefügt werden.
-*
 
 ## Architektur
 * 2-stufig

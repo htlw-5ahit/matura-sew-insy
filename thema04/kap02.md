@@ -9,6 +9,7 @@
 
 ## Collection: Unterschiede und welche gibt es?
 ![](./CollectionDifference.png)
+
 * Listen
   - Methoden
     - add(), get(), clear(), contains(), isEmpty(), remove(), size(),toArray()
@@ -70,7 +71,12 @@
 ![](./CollectionAuswahl.png)
 
 ## equals -> hashcode -> comparable Zusammenhang
-Habbiby wos des für müll
+* `compareTo()`
+  * Benötigt für TreeMap / TreeSet
+
+* `hashcode()` vs `equals()`
+  * Zwei Objekte sind identisch, wenn equals `true` zurückgibt.
+  * Zwei gleiche Hashcodes müssen nicht bedeuten, dass die Objekte gleich sind.
 
 ## Collections
 * enthält nur statische Methoden
