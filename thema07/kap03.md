@@ -16,7 +16,7 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/
 
 | Schicht | Beschreibung |
 |---|---|
-| Interne Ebene<br>(internes Schema) | - beschreibt die physikalischen Speicherstrukturen der Datenbank (Datenspeicherung und Zugriffspfade). zB. Index<br>- Beeinflussbar durch Indexes bzw. Shards |
+| Interne Ebene<br>(internes Schema) | - beschreibt die physikalischen Speicherstrukturen der Datenbank (Datenspeicherung und Zugriffspfade). zB. Index<br>- Beeinflussbar durch Indexes bzw. Shards<br>- DBMS und darunter Betriebssystem|
 | Konzeptuelle Ebene<br>(konzeptuelles Schema) | - legt das Datenbankschema  (Metadatenmodell) fest<br>- systemunabhängige Datenbeschreibung, d.h. sie ist unabhängig von den eingesetzten Datenbank- und Computersystemen.<br>- Verbirgt Details der physische Speicherung<br>- ER-Modell, Relationenmodell, Normalisieren -> Schema |
 | Externe (View) Ebene<br>(externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe interessiert ist und verbirgt den Rest z.B. SQL Statement<br>- Berechtigungen, kleiner Ausschnitt der Daten für gewisse Benutzer, wie zB. durch Views  |
 
@@ -30,8 +30,8 @@ Datenunabhängigkeit
 
 * Änderung des Schemas einer Schicht erfordert keine Änderung des übergeordneten Schemas (Küng)
 * Die ANSI-SPARC macht logische und physische Datenunabhängigkeit durch Einführung der 3 Ebenen möglich
-    * logische Datenunabhängigkeit: da externe Schema Anwendungen vor Änderungen des internen Schema (z.B. Änderungen am Schema) schützen 
-    * physische Datenunabhängigkeit: da konzeptuelles Schema Anwendungen vor Änderungen des internen Schemas (z.B. Tuning) schützt 
+    * logische Datenunabhängigkeit: da externe Schema Anwendungen vor Änderungen des internen Schema (z.B. Änderungen am Schema) schützen
+    * physische Datenunabhängigkeit: da konzeptuelles Schema Anwendungen vor Änderungen des internen Schemas (z.B. Tuning) schützt
 
 Physische Datenunabhängigkeit
 
@@ -105,7 +105,7 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 18-19)](../archiv/insy-game/jahrga
 * DDL -> Externe Ebene
 * DML -> Konzeptuelle Ebene
 
-### Gehen Sie auf einige Modellierungskonzepte ein, die sich aus der Schichtenarchitektur ergeben. 
+### Gehen Sie auf einige Modellierungskonzepte ein, die sich aus der Schichtenarchitektur ergeben.
 
 * Entity-Relationship-Diagram (ER-Diagramm)
 * Relationen Modell
