@@ -18,7 +18,7 @@
 * Datei lesen
   - Zeichenweise: `int fgetc(FILE *fp);`
   -  Formatiert: `int fscanf(FILE *fp, char *format [, arguments]);`
-* [Beispiel]()
+* [Files Übung](https://github.com/htlw-5ahit/matura-sew-insy/blob/main/thema01/files/main.c)
 
 ## Fehlerbehandlung
 * Fehler werden über Returnvalues weitergegeben -> Returnvalues überprüfen
