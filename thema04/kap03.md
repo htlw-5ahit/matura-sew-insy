@@ -31,20 +31,27 @@ zuzugreifen
 
 ## Datentypen
 
-| JDBC Typ  | Java Typ             | Java Object-Typ      |
-|-----------|----------------------|----------------------|
-| TINYINT   | byte                 | java.lang.Byte       |
-| SMALLINT  | short                | java.lang.Short      |
-| INTEGER   | int                  | java.lang.Integer    |
-| BIGINT    | long                 | java.lang.Long       |
-| REAL      | double               | java.lang.Double     |
-| FLOAT     | double               | java.lang.Double     |
-| DOUBLE    | double               | java.lang.Double     |
-| DECIMAL   | java.math.BigDecimal | java.math.BigDecimal |
-| NUMERIC   | java.math.BigDecimal | java.math.BigDecimal |
-| DATE      | java.sql.Date        | java.sql.Date        |
-| TIME      | java.sql.Time        | java.sql.Time        |
-| TIMESTAMP | java.sql.Timestamp   | java.sql.Timestamp   |
+| JDBC Typ      | Java Typ             | Java Object-Typ      |
+|---------------|----------------------|----------------------|
+| TINYINT       | byte                 | java.lang.Byte       |
+| SMALLINT      | short                | java.lang.Short      |
+| INTEGER       | int                  | java.lang.Integer    |
+| BIGINT        | long                 | java.lang.Long       |
+| REAL          | double               | java.lang.Double     |
+| FLOAT         | double               | java.lang.Double     |
+| DOUBLE        | double               | java.lang.Double     |
+| DECIMAL       | java.math.BigDecimal | java.math.BigDecimal |
+| NUMERIC       | java.math.BigDecimal | java.math.BigDecimal |
+| DATE          | java.sql.Date        | java.sql.Date        |
+| TIME          | java.sql.Time        | java.sql.Time        |
+| TIMESTAMP     | java.sql.Timestamp   | java.sql.Timestamp   |
+| CHAR          | java.lang.String     | java.lang.String     |
+| VARCHAR       | java.lang.String     | java.lang.String     |
+| LONGVARCHAR   | java.lang.String     | java.lang.String     |
+| BIT           | boolean              | java.lang.Boolean    |
+| BINARY        | byte[]               | byte[]               |
+| VARBINARY     | byte[]               | byte[]               |
+| LONGVARBINARY | byte[]               | byte[]               |
 
 ## Verwendung
 * Datenbankverbindung aufbauen
