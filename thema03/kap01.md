@@ -40,4 +40,4 @@ try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(prope
 ![](./ServerClientAblauf.jpg)
 
 ## Beispiel EchoServer (Bereits mit Multithreading am Server)
-* [https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echo](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver)
+* [https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver)
