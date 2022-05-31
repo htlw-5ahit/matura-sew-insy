@@ -101,6 +101,17 @@ zuzugreifen
   - DB parst SQL Statement
   - bereitet Statement für Durchführung vor (vorkompiliert)
   - nur mehr Parameter wird ausgetauscht
+* Schützt auch vor SQL-Injections
+  - Die Abfrage und die Daten werden getrennt an den Datenbankserver gesendet
+  - Die Wurzel von SQL-Injection liegt in der Vermischung von Code und Daten
+    - Bsp:
+```php
+$spoiled_data = "1; DROP TABLE users;"
+$query        = "SELECT * FROM users where id=$spoiled_data";
+```
+    - Ergibt `SELECT * FROM users where id=1; DROP TABLE users;` und löscht somit die Tabelle users
+
+  - Kurz: Die Daten werden mit der zweiten Anfrage gesendet, die im Wesentlichen von der eigentlichen Abfrage getrennt ist: So kann das Programm nicht verändert und kein Schaden angerichtet werden.
 * Erstellung sollte einmalig erfolgen und nicht bei jedem Aufruf der Methode
   - Parameter werden als Platzhalter „?“ im SQL String angegeben
   - `PreparedStatement preparedStatement = connection.preparedStatement("Insert into CUSTOMER VALUES (?,?,?)")`
