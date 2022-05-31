@@ -86,7 +86,6 @@ double summe(double zahl1, double zahl2) {
     return zahl1 + zahl2;
 }
 ```
-<<<<<<< HEAD
 
 ## Zeiger
 
@@ -250,5 +249,3 @@ int main()
 	return 0;
 }
 ```
-=======
->>>>>>> dd0a65866a786a8caac0535377f7bfb2d1a1842f
