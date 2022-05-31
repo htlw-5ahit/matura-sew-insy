@@ -1,6 +1,6 @@
 # 7.4. ER bzw. EER- Modell und Umsetzung
 
-### Wie geht man bei der Erstellung eines ER-Modells vor?
+## Wie geht man bei der Erstellung eines ER-Modells vor?
 
 * Suche von Entitäten, Beziehungen und Attributen
     * Eine Entität ist ein individuell identifizierbares Objekt der Wirklichkeit.
@@ -14,14 +14,14 @@ Quelle:
 * [https://datenbanken-verstehen.de/datenmodellierung/entity-relationship-modell/](https://datenbanken-verstehen.de/datenmodellierung/entity-relationship-modell/)
 * [4-ER-Modellierung-Basics (S. 5)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-### Welche Einsatzgebiete hat ein ER-Modell?
+## Welche Einsatzgebiete hat ein ER-Modell?
 
 * Datenbankdesign
 * Datenmodellierung
 
 Quelle: [https://de.wikipedia.org/wiki/Entity-Relationship-Modell](https://de.wikipedia.org/wiki/Entity-Relationship-Modell)
 
-### Was ist eine Entität? Was ist ein Entitätstyp?
+## Was ist eine Entität? Was ist ein Entitätstyp?
 
 Entity
 
@@ -37,7 +37,7 @@ Entity Type
 
 Quelle: [4-ER-Modellierung-Basics (S. 7-8)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-### Was ist eine Beziehung („Relationship“), was ein Beziehungstyp?
+## Was ist eine Beziehung („Relationship“), was ein Beziehungstyp?
 
 Relationship
 
@@ -53,7 +53,7 @@ Relationship Type
 
 Quelle: [4-ER-Modellierung-Basics (S. 7-8)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-### Erklären Sie anhand des Modells Ausprägung und Modell.
+## Erklären Sie anhand des Modells Ausprägung und Modell.
 
 | Beispiel Universität | Ausprägung und Modell |
 |----------------------|-----------------------|
@@ -61,7 +61,7 @@ Quelle: [4-ER-Modellierung-Basics (S. 7-8)](../archiv/insy-game/jahrgang3/4-ER-M
 
 Quelle: [4-ER-Modellierung-Basics (S. 5-6)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-### Welche Typen von Beziehungen können Entitäten eingehen?
+## Welche Typen von Beziehungen können Entitäten eingehen?
 
 - 1:1 Beziehung
 - 1:N bzw. N:1 Beziehung
@@ -69,7 +69,7 @@ Quelle: [4-ER-Modellierung-Basics (S. 5-6)](../archiv/insy-game/jahrgang3/4-ER-M
 
 Quelle: [4-ER-Modellierung-Basics (S. 19-21)](../archiv/insy-game/jahrgang3/4-ER-Modellierung-Basics.pdf)
 
-### Was versteht man unter einer schwachen Entität?
+## Was versteht man unter einer schwachen Entität?
 
 Strong Entities
 
@@ -91,7 +91,7 @@ Beispiel:
 
 Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 4-5)](../archiv/insy-game/jahrgang3/6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung.pdf)
 
-### Was versteht man unter Spezialisierung/Generalisierung? Wie werden diese umgesetzt?
+## Was versteht man unter Spezialisierung/Generalisierung? Wie werden diese umgesetzt?
 
 - Eigenschaften von ähnlichen Entity-Typen werden einem gemeinsamen Obertyp zugeordnet.
 - Bei dem jeweiligen Untertyp verbleiben nur die nicht faktorisierbaren Attribute.
@@ -111,22 +111,22 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 4
 
 Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 7-10)](../archiv/insy-game/jahrgang3/6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung.pdf)
 
-### Erklären Sie rekursive Datenstrukturen im ER-Modell.
+## Erklären Sie rekursive Datenstrukturen im ER-Modell.
 
 ???
 
-### Welche Beziehungen (Kardinalitäten!) können unmittelbar als Relationenschema (im Relationenmodell) dargestellt werden?
+## Welche Beziehungen (Kardinalitäten!) können unmittelbar als Relationenschema (im Relationenmodell) dargestellt werden?
 
 * 1:n
 * c:n
 
 Quelle: [7-Relationenmodell-Einführung (S. 24)](../archiv/insy-game/jahrgang3/7-Relationenmodell-Einfu%CC%88hrung.pdf)
 
-### Was muss ich bei der Umsetzung der Beziehungen beachten?
+## Was muss ich bei der Umsetzung der Beziehungen beachten?
 
 ???
 
-### Wie können „schwache Entitäten“ als ER-Diagramm bzw. als Tabellenschema modelliert werden?
+## Wie können „schwache Entitäten“ als ER-Diagramm bzw. als Tabellenschema modelliert werden?
 
 * Tabelle mit Schlüsseln aus beiden Entitäten
 
@@ -138,11 +138,11 @@ Quelle: [7-Relationenmodell-Einführung (S. 24)](../archiv/insy-game/jahrgang3/
 
 Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 6)](../archiv/insy-game/jahrgang3/6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung.pdf)
 
-### Warum dürfen/sollen Beziehungen nicht in Beziehung zu anderen Beziehungen stehen?
+## Warum dürfen/sollen Beziehungen nicht in Beziehung zu anderen Beziehungen stehen?
 
 ???
 
-### Was versteht man in diesem Zusammenhang unter „Uminterpretation“?
+## Was versteht man in diesem Zusammenhang unter „Uminterpretation“?
 
 Relationshiptypen beschreiben Beziehungen zwischen Instanzen zweier oder mehrerer Entities.Bestimmte fachliche Fälle können es erfordern, dass ein Relationshiptyp wiederum mit einem Entitytypen eine Beziehung eingehen muss. Da Relationshiptypen nicht direkt mit Relationshiptypen verbunden werden dürfen, muss der betreffende Relationshiptyp uminterpretiert werden.
 
@@ -150,7 +150,7 @@ Quelle:
 * [https://docplayer.org/34089114-Script-datenmanagement-teil-1-modellieren-mit-dem-erm.html (S. 12)](https://docplayer.org/34089114-Script-datenmanagement-teil-1-modellieren-mit-dem-erm.html)
 * [https://silo.tips/download/52-datenmodellierung-grundlagen-der-datenmodellierung (S. 12-13)](https://silo.tips/download/52-datenmodellierung-grundlagen-der-datenmodellierung)
 
-### Wie werden Rekursionen in ein relationales Modell umgesetzt?
+## Wie werden Rekursionen in ein relationales Modell umgesetzt?
 
 * Rekursiv c:c
     * `Mitarbeiter (Pers#, Vorname, Nachname, Partner#)`
@@ -171,7 +171,7 @@ Quelle:
 
 [8-Relationenmodell-Vertiefung (S. 25-27)](../archiv/insy-game/jahrgang3/8-Relationenmodell-Vertiefung.pdf)
 
-### Welche Notationen bietet das ER-Modell? Was sind die Unterschiede? 
+## Welche Notationen bietet das ER-Modell? Was sind die Unterschiede? 
 
 - Krähenfußnotation
     * Kommt aus dem Software Engineering

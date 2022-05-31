@@ -44,13 +44,15 @@ Quelle: [https://www.datenbanken-verstehen.de/datenmodellierung/normalisierung/]
 
 ## Was versteht man in diesem Zusammenhang unter „Anomalie“? Welche Anomalien kennen Sie – Führen Sie dazu Beispiele an!
 
-Es gibt drei Anomalien die bei einem unsauber realisierten Datenbank-Entwurf auftauchen können:
-* Löschanomalie
-    * Bei der Löschanomalie kann es passieren, dass man durch das bewusste Löschen eines Datensatzes, unbewusst Informationen verliert, die man später wieder gebraucht hätte.
-* Einfügeanomalie
-    * Liegt ein fehlerhaftes Datenbankdesign vor, kann es bei der Einfüge-Anomalie passieren das Daten gar nicht gespeichert/angenommen werden, wenn beispielsweise für den Primärschlüssel kein Wert eingegeben wird, oder es führt bei einer nicht vollständigen Eingabe von Daten zu Inkonsistenz.
-* Aktualisierungsanomalie /Änderungs-Anomalie
-    * Bei der Änderungs-Anomalie oder auch Aktualisierungs-Anomalie genannt, werden gleiche Attribute eines Datensatzes nicht automatisch geändert. So entsteht eine Inkonsistenz der Daten. Man muss per Hand alle Einträge mühsam aktualisiern, es darf kein Fehler unterlaufen ansonsten führt es zur Inkonsistenz.
+* Anomalie
+    * Fehlverhalten der Datenbank durch Verletzung der Regel, dass Datensätze doppelt vorhanden sind
+* Drei Anomalien können bei unsauberen realisierten Datenbank-Entwürfen auftauchen:
+    * Löschanomalie
+        * Bei der Löschanomalie kann es passieren, dass man durch das bewusste Löschen eines Datensatzes, unbewusst Informationen verliert, die man später wieder gebraucht hätte.
+    * Einfügeanomalie
+        * Liegt ein fehlerhaftes Datenbankdesign vor, kann es bei der Einfüge-Anomalie passieren das Daten gar nicht gespeichert/angenommen werden, wenn beispielsweise für den Primärschlüssel     kein Wert eingegeben wird, oder es führt bei einer nicht vollständigen Eingabe von Daten zu Inkonsistenz.
+    * Aktualisierungsanomalie /Änderungs-Anomalie
+        * Bei der Änderungs-Anomalie oder auch Aktualisierungs-Anomalie genannt, werden gleiche Attribute eines Datensatzes nicht automatisch geändert. So entsteht eine Inkonsistenz der Daten. Man muss per Hand alle Einträge mühsam aktualisiern, es darf kein Fehler unterlaufen ansonsten führt es zur Inkonsistenz.
 
 Quelle: [https://www.datenbank-grundlagen.de/anomalien.html](https://www.datenbank-grundlagen.de/anomalien.html)
 
