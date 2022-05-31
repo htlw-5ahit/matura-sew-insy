@@ -1,4 +1,4 @@
-# 10.1. SQL und Standards
+# 9.1. SQL und Standards
 
 ## Was besagt ANSI SQL92 – halten sich die DB-Anbieter daran?
 

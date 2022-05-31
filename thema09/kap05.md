@@ -1,4 +1,4 @@
-# 10.5. Anbindungsmöglichkeiten einer Datenbank (JDBC, JPA)
+# 9.5. Anbindungsmöglichkeiten einer Datenbank (JDBC, JPA)
 
 Was ist JDBC? Vorteile von der Verwendung von JDBC. Welche JDBC-Architekturen gibt es?
 Welche wird hauptsächlich verwendet? Grundaufbau der Anbindung an eine Datenbank in

@@ -1,4 +1,4 @@
-# 10.4. Prozedurale Erweiterung von SQL-Datenbanken
+# 9.4. Prozedurale Erweiterung von SQL-Datenbanken
 
 Was versteht man unter „Prozedurale Erweiterung“ einer SQL-Datenbank? Wer hat PL/SQL
 eingeführt? Charakterisieren Sie die Syntax von PL/SQL. Wo werden diese gespeichert und

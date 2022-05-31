@@ -1,4 +1,4 @@
-# 9.1. NoSQL Datenbanken
+# 10.1. NoSQL Datenbanken
 
 ## Was bedeutet NoSQL
 
