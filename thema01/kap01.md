@@ -5,7 +5,6 @@
 * Ein-/Ausgabe ist nicht im Befehlsumfang enthalten -> Funktionen der Standardbibliothek
 * Ein Zeiger repräsentiert eine Adresse und nicht wie eine Variable einen Wert. Will man auf den Wert der Adresse zugreifen, auf die ein Zeiger zeigt, muss * vor den Namen gesetzt werden.
 * (Software)Bibliotheken werden mit #include <...> hinzugefügt
-* ![](./Kompiliervorgang.jpg)
 
 ```c
 int zahl = 7;
@@ -20,6 +19,8 @@ printf("Zeiger-Wert: %d\n", *zeiger);
 * Geschriebener Quellcode wird vom Compiler in Objektcode übersetzt und danach vom Linker mit Bibliotheken zu einem ausführbaren Programm gebunden
 * Der Compiler ruft vor der eigentlichen Übersetzung den Präprozessor auf, der die Präprozessordirektive (Ganz oben #define, #include, usw.) auswertet
 
+
+![](./Kompiliervorgang.jpg)
 ## H&C-File
 * C-Quellcode setzt sich  aus Quellcode-Dateien (`.c`) zusammen, die Header-Dateien mittels `#include` einbinden (`.h`);
 *  `.c`-File: SourceCode
@@ -59,7 +60,7 @@ printf("Zeiger-Wert: %d\n", *zeiger);
 ## Ein-/Ausgabe
 * Erfordert `#include <stdio.h>`
 * Formatierung mit `sprintf(array, "Format", variablen...)`
-* Ausgabe mit `printf("Text");`
+* Ausgabe mit `printf("Text");` oder `printf("%d",&number);`
 * Einlesen mit `scanf("%d",&number);`
 * Zeichenkette einlesen mit `fgets(array, laenge, stdin/File)`
 
