@@ -86,3 +86,166 @@ double summe(double zahl1, double zahl2) {
     return zahl1 + zahl2;
 }
 ```
+
+## Zeiger
+
+### Grundsätzliches
+
+* Adresse + Typ eines Objekts
+* Zeiger referenziert (zeigt auf) Adresse
+* Objekttyp gibt Größe der Speicherzelle an 
+* Deklaration: Datentyp *name;
+* z.B.:
+	* int *p (Datentyp ist hier int *, also die Adresses eines int Wertes)
+	* &p liefert Adressse von p
+* Bsp.:
+
+```c
+int *ptr; // Zeiger auf int
+int value = 123; // eine int-Variable
+ptr = &value; // der Zeiger ptr zeigt auf value
+```
+
+### Call-by-Reference
+* Normalerweise wird in C eine Kopie der Variable übergeben
+* Änderungen von der Variable haben keine Auswirkung außerhalb der Funktion
+* Wird aber ein Zeiger auf die Variable übergeben, so ändert sich die Variablen
+*Bsp.:
+
+```c
+int main (){
+	int x = 2;
+	int y = 3;
+	swap (&x, &y);
+}
+
+void swap (int *i1, int *i2){
+	int help;
+	help = *i1;
+	*i1 = *i2;
+	*i2 = help;
+}
+```
+
+### NULL-Zeiger
+* Um Segmentation fault zu vermeiden Zeiger mit NULL initialisieren
+* int *iptr = NULL
+
+### Zeiger und Arrays
+* int a[4] = {10, 20, 30, 40};
+* a zeigt auf 1. Array Element a[0]
+
+```c
+int *pa;
+pa = a;
+```
+
+* pa zeigt auf a[0]
+* pa+1 und a zeigen auf a[1]
+* Bsp.:
+
+```c
+int main () {
+	int a[4] = {10, 20, 30, 40};
+	int *pa;
+	pa = a;
+	for (i = 0; i<4; i++)
+		printf („Adresse: %p, Wert: %2d\n“,
+			pa+i, *(pa+i));
+	return 0;
+}
+```
+
+## Structs
+* Bsp.:
+
+```c
+struct Books {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+};
+
+int main( ) {
+
+   struct Books Book1;        /* Declare Book1 of type Book */
+   struct Books Book2;        /* Declare Book2 of type Book */
+ 
+   /* book 1 specification */
+   strcpy( Book1.title, "C Programming");
+   strcpy( Book1.author, "Nuha Ali"); 
+   strcpy( Book1.subject, "C Programming Tutorial");
+   Book1.book_id = 6495407;
+
+   /* book 2 specification */
+   strcpy( Book2.title, "Telecom Billing");
+   strcpy( Book2.author, "Zara Ali");
+   strcpy( Book2.subject, "Telecom Billing Tutorial");
+   Book2.book_id = 6495700;
+ 
+   /* print Book1 info */
+   printf( "Book 1 title : %s\n", Book1.title);
+   printf( "Book 1 author : %s\n", Book1.author);
+   printf( "Book 1 subject : %s\n", Book1.subject);
+   printf( "Book 1 book_id : %d\n", Book1.book_id);
+
+   /* print Book2 info */
+   printf( "Book 2 title : %s\n", Book2.title);
+   printf( "Book 2 author : %s\n", Book2.author);
+   printf( "Book 2 subject : %s\n", Book2.subject);
+   printf( "Book 2 book_id : %d\n", Book2.book_id);
+
+   return 0;
+}
+```
+
+### typdef struct
+* Bei Verwendung von typdef kann bei der Deklarierung das Schlüsselwort "struct" weggelassen werden
+* Bsp.:
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+//normal structure declaration
+struct student_str {
+	char name[30];
+	int age;
+};
+
+//structur declaration with typedef
+typedef struct {
+	char name[30];
+	int age;
+}employee_str;
+
+//main code
+int main()
+{
+    
+	//declare structure variable for student_str
+	struct student_str std;
+	//declare structure variable for employee_str
+	employee_str emp;
+	
+	//assign values to std 
+	strcpy(std.name, "Amit Shukla");
+	std.age = 21;
+	
+	//assign values to emp
+	strcpy(emp.name, "Abhishek Jain");
+	emp.age = 27;
+	
+	//print std and emp structure 
+	printf("Student detail:\n");
+	printf("Name: %s\n",std.name);
+	printf("Age: %d\n",std.age);
+	
+	printf("Employee detail:\n");
+	printf("Name: %s\n",emp.name);
+	printf("Age: %d\n",emp.age);	
+	
+	return 0;
+}
+```
