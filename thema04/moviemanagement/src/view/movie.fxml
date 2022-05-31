@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="474.0" prefWidth="600.0" style="-fx-background-color: #3a3a3c;" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovieController">
+   <children>
+      <Label layoutX="26.0" layoutY="74.0" prefHeight="17.0" prefWidth="91.0" text="Title:" textFill="WHITE" />
+      <TextField fx:id="titleField" layoutX="117.0" layoutY="69.0" prefHeight="27.0" prefWidth="458.0" />
+      <Label layoutX="26.0" layoutY="116.0" prefHeight="17.0" prefWidth="91.0" text="Director:" textFill="WHITE" />
+      <Label layoutX="323.0" layoutY="116.0" prefHeight="17.0" prefWidth="91.0" text="Company:" textFill="WHITE" />
+      <TextField fx:id="directorField" layoutX="117.0" layoutY="111.0" />
+      <TextField fx:id="companyField" layoutX="414.0" layoutY="111.0" />
+      <Label layoutX="26.0" layoutY="161.0" prefHeight="17.0" prefWidth="91.0" text="Cast:" textFill="WHITE" />
+      <TextField fx:id="castField" layoutX="117.0" layoutY="156.0" prefHeight="27.0" prefWidth="458.0" />
+      <Label layoutX="25.0" layoutY="205.0" prefHeight="17.0" prefWidth="91.0" text="Year:" textFill="WHITE" />
+      <Label layoutX="322.0" layoutY="205.0" prefHeight="17.0" prefWidth="91.0" text="Running Time:" textFill="WHITE" />
+      <TextField fx:id="yearField" layoutX="116.0" layoutY="200.0" />
+      <TextField fx:id="runningTimeField" layoutX="413.0" layoutY="200.0" />
+      <Label alignment="CENTER" layoutX="214.0" layoutY="25.0" prefHeight="26.0" prefWidth="185.0" text="Movie Management" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="486.0" layoutY="430.0" mnemonicParsing="false" onAction="#onClosePressed" text="Close &amp; Save" />
+      <Button fx:id="exitButton" layoutX="439.0" layoutY="430.0" mnemonicParsing="false" onAction="#onExitPressed" text="Exit" />
+      <Label layoutX="25.0" layoutY="253.0" prefHeight="17.0" prefWidth="91.0" text="Image:" textFill="WHITE" />
+      <Button fx:id="fileButton" layoutX="117.0" layoutY="248.0" mnemonicParsing="false" onAction="#onFileChooserPressed" text="Choose File ..." />
+      <Label fx:id="fileLabel" layoutX="116.0" layoutY="287.0" prefHeight="17.0" prefWidth="152.0" text="No file selected" textFill="WHITE" />
+      <Button fx:id="deleteButton" layoutX="14.0" layoutY="430.0" mnemonicParsing="false" onAction="#onDeletePressed" text="Delete Movie" visible="false" />
+      <ImageView fx:id="imageView" fitHeight="171.0" fitWidth="240.0" layoutX="335.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

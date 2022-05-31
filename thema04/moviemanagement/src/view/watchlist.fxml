@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="446.0" prefWidth="600.0" style="-fx-background-color: #3a3a3c;" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WatchlistController">
+   <children>
+      <Label layoutX="26.0" layoutY="72.0" prefHeight="17.0" prefWidth="91.0" text="Title:" textFill="WHITE" />
+      <Label layoutX="323.0" layoutY="72.0" prefHeight="17.0" prefWidth="91.0" text="Genre:" textFill="WHITE" />
+      <TextField fx:id="titleField" layoutX="117.0" layoutY="67.0" />
+      <TextField fx:id="genreField" layoutX="414.0" layoutY="67.0" />
+      <Label layoutX="26.0" layoutY="117.0" prefHeight="17.0" prefWidth="91.0" text="Description:" textFill="WHITE" />
+      <TextField fx:id="descriptionField" layoutX="117.0" layoutY="112.0" prefHeight="27.0" prefWidth="458.0" />
+      <Label alignment="CENTER" layoutX="213.0" layoutY="25.0" prefHeight="26.0" prefWidth="218.0" text="Watchlist Management" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="495.0" layoutY="411.0" mnemonicParsing="false" onAction="#onClosePressed" text="Close &amp; Save" />
+      <Button fx:id="exitButton" layoutX="448.0" layoutY="411.0" mnemonicParsing="false" onAction="#onExitPressed" text="Exit" />
+      <Label layoutX="26.0" layoutY="163.0" prefHeight="17.0" prefWidth="91.0" text="Movies:" textFill="WHITE" />
+      <ListView fx:id="allMoviesListView" layoutX="117.0" layoutY="156.0" prefHeight="235.0" prefWidth="200.0" stylesheets="@listview.css" />
+      <ListView fx:id="selectedMoviesListView" layoutX="375.0" layoutY="156.0" prefHeight="235.0" prefWidth="200.0" stylesheets="@listview.css" />
+      <Button fx:id="moveRightButton" layoutX="333.0" layoutY="239.0" mnemonicParsing="false" onAction="#onMoveRightPressed" text="&gt;" />
+      <Button fx:id="moveLeftButton" layoutX="333.0" layoutY="282.0" mnemonicParsing="false" onAction="#onMoveLeftPressed" text="&lt;" />
+      <Button fx:id="deleteButton" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#onDeletePressed" text="Delete Watchlist" visible="false" />
+   </children>
+</AnchorPane>

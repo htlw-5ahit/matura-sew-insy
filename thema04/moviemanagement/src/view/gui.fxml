@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="428.0" prefWidth="976.0" style="-fx-background-color: #3a3a3c;" stylesheets="@bootstrap3.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GuiController">
+   <children>
+      <ListView fx:id="watchlistListView" layoutX="14.0" layoutY="13.0" prefHeight="359.0" prefWidth="200.0" stylesheets="@listview.css" />
+      <ListView fx:id="movieListView" layoutX="223.0" layoutY="148.0" prefHeight="224.0" prefWidth="200.0" visible="false" stylesheets="@listview.css" />
+      <ImageView fx:id="movieImageView" fitHeight="265.0" fitWidth="200.0" layoutX="744.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="movieNameLabel" layoutX="461.0" layoutY="14.0" prefHeight="17.0" prefWidth="249.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <GridPane fx:id="movieGridPane" layoutX="461.0" layoutY="65.0" prefHeight="230.0" prefWidth="249.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="76.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="132.0" minWidth="10.0" prefWidth="131.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Director:" textFill="WHITE" />
+            <Label text="Company:" textFill="WHITE" GridPane.rowIndex="1" />
+            <Label text="Cast:" textFill="WHITE" GridPane.rowIndex="2" />
+            <Label text="Release Year:" textFill="WHITE" GridPane.rowIndex="3" />
+            <Label text="Running Time:" textFill="WHITE" GridPane.rowIndex="4" />
+            <Label fx:id="movieDirectorLabel" textFill="WHITE" GridPane.columnIndex="1" />
+            <Label fx:id="movieCompanyLabel" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="movieCastLabel" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="movieYearLabel" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="movieRunningTimeLabel" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Label fx:id="watchlistNameLabel" layoutX="223.0" layoutY="14.0" prefHeight="17.0" prefWidth="249.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="watchlistGridPane" layoutX="223.0" layoutY="66.0" prefHeight="73.0" prefWidth="229.0" visible="false">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="68.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.0" minWidth="10.0" prefWidth="161.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Genre:" textFill="WHITE" />
+            <Label text="Description:" textFill="WHITE" GridPane.rowIndex="1" />
+            <Label fx:id="watchlistGenreLabel" textFill="WHITE" GridPane.columnIndex="1" />
+            <Label fx:id="watchlistDescriptionLabel" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" layoutX="14.0" layoutY="387.0" prefWidth="604.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="addWatchlistButton" mnemonicParsing="false" onAction="#onWatchlistPressed" styleClass="action-btn" text="Watchlist hinzufügen" GridPane.rowIndex="1" />
+            <Button fx:id="editWatchlistButton" mnemonicParsing="false" onAction="#onWatchlistEditPressed" text="Watchlist bearbeiten" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="addMovieButton" mnemonicParsing="false" onAction="#onMovieAddPressed" text="Movie hinzufügen" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="editMovieButton" mnemonicParsing="false" onAction="#onMovieEditPressed" text="Movie bearbeiten" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -30,7 +30,21 @@ zuzugreifen
   - Siehe [3.1. Sockets](../thema03/kap01.md)
 
 ## Datentypen
-  * @Clemens Hier Tabelle von 4400 JDBC F.32,33,34 einfügen
+
+| JDBC Typ  | Java Typ             | Java Object-Typ      |
+|-----------|----------------------|----------------------|
+| TINYINT   | byte                 | java.lang.Byte       |
+| SMALLINT  | short                | java.lang.Short      |
+| INTEGER   | int                  | java.lang.Integer    |
+| BIGINT    | long                 | java.lang.Long       |
+| REAL      | double               | java.lang.Double     |
+| FLOAT     | double               | java.lang.Double     |
+| DOUBLE    | double               | java.lang.Double     |
+| DECIMAL   | java.math.BigDecimal | java.math.BigDecimal |
+| NUMERIC   | java.math.BigDecimal | java.math.BigDecimal |
+| DATE      | java.sql.Date        | java.sql.Date        |
+| TIME      | java.sql.Time        | java.sql.Time        |
+| TIMESTAMP | java.sql.Timestamp   | java.sql.Timestamp   |
 
 ## Verwendung
 * Datenbankverbindung aufbauen
@@ -107,23 +121,26 @@ zuzugreifen
   - PreparedStatements können mit `.addBatch()` auf einem „Stapel“ für eine spätere Abarbeitung geparkt werden
   - Gesamter „Stapel“ wird per .executeBatch() als Gesamtes abgearbeitet und ausgeführt -> Performancegewinn
 
-
 ![](./Transaktion.jpg)
+
 ## Blobs
-* Binary Large OBjects
+* Binary Large Objects
 * Verwenden Streams zum Lesen/Schreiben
 * BLOB speichern
+
 ```java
 // idx ... Index des Platzhalters im SQL-String
 // x ... InputStream (Lesen vom Datenträger: FileInputStream)
 // length ... Größe der Datei in Byte
 void setBinaryStream (int idx, InputStream x, int length) throws SQLException
 ```
+
 * BLOB lesen
+
 ```java
 InputStream getBinaryStream (int columnIndex) throws SQLException
 InputStream getBinaryStream (String columnName) throws SQLException
 ```
 
 ## Beispiel
-* @Clemens Bsp hochladen pls
+* [MovieManagement](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema04/moviemanagement)
