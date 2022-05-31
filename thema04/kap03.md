@@ -112,9 +112,9 @@ zuzugreifen
   - Die Abfrage und die Daten werden getrennt an den Datenbankserver gesendet
   - Die Wurzel von SQL-Injection liegt in der Vermischung von Code und Daten
     - Bsp:
-```php
-$spoiled_data = "1; DROP TABLE users;"
-$query        = "SELECT * FROM users where id=$spoiled_data";
+```java
+String spoiledData = "1; DROP TABLE users;"
+String query        = "SELECT * FROM users where id="+spoiledData;
 ```
     - Ergibt `SELECT * FROM users where id=1; DROP TABLE users;` und löscht somit die Tabelle users
 
