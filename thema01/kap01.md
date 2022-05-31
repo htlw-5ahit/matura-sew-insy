@@ -5,6 +5,15 @@
 * Ein-/Ausgabe ist nicht im Befehlsumfang enthalten -> Funktionen der Standardbibliothek
 * Ein Zeiger repräsentiert eine Adresse und nicht wie eine Variable einen Wert. Will man auf den Wert der Adresse zugreifen, auf die ein Zeiger zeigt, muss * vor den Namen gesetzt werden.
 * (Software)Bibliotheken werden mit #include <...> hinzugefügt
+* Stringoperationen mit `#include <string.h>`
+  - Aufrufbar mit str...
+  - Bsp:
+    - Kopieren: `int strcpy(char * restrict ziel, const char * restrict quelle);`
+    - Vergleichen: `int strcmp(const char *str1, const char *str2);`
+    - Anhängen: `char *strcat(char * restrict str1, const char * restrict str2);`
+    - Länge: `size_t strlen(const char *str);`
+    - Zeichen suchen: `char *strchr(const char *str, int zeichen);`
+    - String suchen: `char *strstr(const char *str, const char *such_str);`
 
 ```c
 int zahl = 7;
@@ -93,7 +102,7 @@ double summe(double zahl1, double zahl2) {
 
 * Adresse + Typ eines Objekts
 * Zeiger referenziert (zeigt auf) Adresse
-* Objekttyp gibt Größe der Speicherzelle an 
+* Objekttyp gibt Größe der Speicherzelle an
 * Deklaration: Datentyp *name;
 * z.B.:
 	* int *p (Datentyp ist hier int *, also die Adresses eines int Wertes)
@@ -171,10 +180,10 @@ int main( ) {
 
    struct Books Book1;        /* Declare Book1 of type Book */
    struct Books Book2;        /* Declare Book2 of type Book */
- 
+
    /* book 1 specification */
    strcpy( Book1.title, "C Programming");
-   strcpy( Book1.author, "Nuha Ali"); 
+   strcpy( Book1.author, "Nuha Ali");
    strcpy( Book1.subject, "C Programming Tutorial");
    Book1.book_id = 6495407;
 
@@ -183,7 +192,7 @@ int main( ) {
    strcpy( Book2.author, "Zara Ali");
    strcpy( Book2.subject, "Telecom Billing Tutorial");
    Book2.book_id = 6495700;
- 
+
    /* print Book1 info */
    printf( "Book 1 title : %s\n", Book1.title);
    printf( "Book 1 author : %s\n", Book1.author);
@@ -223,29 +232,29 @@ typedef struct {
 //main code
 int main()
 {
-    
+
 	//declare structure variable for student_str
 	struct student_str std;
 	//declare structure variable for employee_str
 	employee_str emp;
-	
-	//assign values to std 
+
+	//assign values to std
 	strcpy(std.name, "Amit Shukla");
 	std.age = 21;
-	
+
 	//assign values to emp
 	strcpy(emp.name, "Abhishek Jain");
 	emp.age = 27;
-	
-	//print std and emp structure 
+
+	//print std and emp structure
 	printf("Student detail:\n");
 	printf("Name: %s\n",std.name);
 	printf("Age: %d\n",std.age);
-	
+
 	printf("Employee detail:\n");
 	printf("Name: %s\n",emp.name);
-	printf("Age: %d\n",emp.age);	
-	
+	printf("Age: %d\n",emp.age);
+
 	return 0;
 }
 ```
