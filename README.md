@@ -53,6 +53,14 @@
 
 ## 9. Relationale Abfragesprachen, Prozedurale Erweiterungen und Datenbankanbindung (GAME)
 
+1. [Structured Query Language (SQL)](thema10/kap01.md)
+2. [Views und Indizes](thema10/kap02.md)
+3. SQL Standards Überblick
+4. [Prozedurale Erweiterungen mit PL/SQL](thema10/kap04.md)
+5. [Anbindungsmöglichkeiten einer Datenbank an Anwendungen(JDBC, JPA)](thema10/kap05.md)
+
+## 10. NoSQL-Datenbanken und Anwendungen (GAME)
+
 1. [Prinzipien, Kategorien und Einsatz](thema09/kap01.md)
 2. [Einsatz von MongoDB](thema09/kap02-03.md)
 3. [Replikation und Sharding](thema09/kap02-03.md)
@@ -61,14 +69,6 @@
 6. [Sessions – Nutzung und Management](thema09/kap04-08.md)
 7. [Authentifizierung, DB-Zugriff und Cookies](thema09/kap04-08.md)
 8. [Web-Anwendungen und Datenbankanbindung](thema09/kap04-08.md)
-
-## 10. NoSQL-Datenbanken und Anwendungen (GAME)
-
-1. [Structured Query Language (SQL)](thema10/kap01.md)
-2. [Views und Indizes](thema10/kap02.md)
-3. SQL Standards Überblick
-4. [Prozedurale Erweiterungen mit PL/SQL](thema10/kap04.md)
-5. [Anbindungsmöglichkeiten einer Datenbank an Anwendungen(JDBC, JPA)](thema10/kap05.md)
 
 ## 11. Betriebliche Informationssysteme (WINJ)
 

@@ -1,4 +1,4 @@
-# ERP-Systeme 11.1
+# 11.1. ERP-Systeme
 
 ## Was ist ein ERP-System
 * Enterprise Resource Planning steuert die im Unternehmen vorhandenen Ressourcen (z.B.: Kapital, Mitarbeieter, Betriebsmittel)
