@@ -1,12 +1,12 @@
 # 9.1. NoSQL Datenbanken
 
-### Was bedeutet NoSQL
+## Was bedeutet NoSQL
 
 NoSQL = „not only SQL“
 
 Quelle: [NoSQL-Teil1 (S. 8)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### Eigenschaften
+## Eigenschaften
 
 * verteilte und horizontale Skalierbarkeit, gleichrangige Knoten (verteilte Hardware -> hohe Ausfallsicherheit)
 * kostengünstige Rechnersysteme zur Datenspeicherung
@@ -17,7 +17,7 @@ Quelle: [NoSQL-Teil1 (S. 8)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
 Quelle: [NoSQL-Teil1 (S. 8)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### Einteilung mit Beispielen
+## Einteilung mit Beispielen
 
 * Document Store
     * MongoDB, CouchDB, RavenDB
@@ -30,7 +30,7 @@ Quelle: [NoSQL-Teil1 (S. 8)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
 Quelle: [NoSQL-Teil1 (S. 23-24)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### Vergleich & Einsatzmöglichkeiten
+## Vergleich & Einsatzmöglichkeiten
 
 * Document Store
     * Zusammengehörige Daten strukturiert in einem Dokument speichern
@@ -54,7 +54,7 @@ Quelle: [NoSQL-Teil1 (S. 23-24)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
 Quelle: [NoSQL-Teil1 (S. 25-43)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### CAP Theorem
+## CAP Theorem
 
 Laut dem CAP-Theorem kann ein verteiltes System zwei der folgenden Eigenschaften gleichzeitig erfüllen, jedoch nicht alle drei.
 
@@ -69,7 +69,7 @@ Laut dem CAP-Theorem kann ein verteiltes System zwei der folgenden Eigenschaften
 
 Quelle: [NoSQL-Teil1 (S. 14)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### ACID und BASE im Vergleich
+## ACID und BASE im Vergleich
 
 ACID
 
@@ -104,7 +104,7 @@ BASE
 
 Quelle: [NoSQL-Teil1 (S. 18-20)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### Erklären Sie MAP/Reduce und den Einsatz
+## Erklären Sie MAP/Reduce und den Einsatz
 
 * Programmiermodell von Google entwickelt
 * MapReduce dient zur verteilten und parallelen Verarbeitung großer Mengen strukturierter und unstrukturierter Daten
@@ -119,7 +119,7 @@ Beispiel:
 
 Quelle: [NoSQL-Teil1 (S. 44-46)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
-### MongoDB als NoSQL Beispiel. Eigenschaften
+## MongoDB als NoSQL Beispiel. Eigenschaften
 
 * MongoDB ist eine OpenSource Document Store Database
 * leading NoSQL database
@@ -132,7 +132,7 @@ Quelle: [NoSQL-Teil1 (S. 44-46)](../archiv/insy-game/jahrgang5/NoSQL-Teil1.pdf)
 
 Quelle: [MongoDB_1 (S. 4)](../archiv/insy-game/jahrgang5/MongoDB_1.pdf)
 
-### CRUD Operationen im Überblick
+## CRUD Operationen im Überblick
 
 | SQL                 | MongoDB                 |
 |---------------------|-------------------------|

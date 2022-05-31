@@ -1,18 +1,18 @@
 # 7.3. Architektur von Datenbanksystemen
 
-### Was versteht man unter der „Drei Schichten Architektur“ nach ANSI-SPARC?
+## Was versteht man unter der „Drei Schichten Architektur“ nach ANSI-SPARC?
 
 ![Datenbankarchitektur](Datenbankarchitektur.png)
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 10)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Wieso hat man sich überhaupt für mehrere Schichten entschieden?
+## Wieso hat man sich überhaupt für mehrere Schichten entschieden?
 
 Benutzeranwendungen und physische Speicherung sollen voneinander getrennt werden.
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Erläutern Sie die einzelnen Schichten.
+## Erläutern Sie die einzelnen Schichten.
 
 | Schicht | Beschreibung |
 |---|---|
@@ -24,7 +24,7 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 9)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Welche Gründe sprechen für dieses Modell?
+## Welche Gründe sprechen für dieses Modell?
 
 Datenunabhängigkeit
 
@@ -48,31 +48,31 @@ Logische Datenunabhängigkeit
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 12-15)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Welche Schicht hängt vom Betriebssystem ab?
+## Welche Schicht hängt vom Betriebssystem ab?
 
 Interne Ebene
 
-### Braucht man ein Filesystem – wenn ja: Wer stellt es zur Verfügung und inwieweit kann sich dieses auf das Gesamtsystem auswirken?
+## Braucht man ein Filesystem – wenn ja: Wer stellt es zur Verfügung und inwieweit kann sich dieses auf das Gesamtsystem auswirken?
 
 * Betriebssystem stellt Dateisystem zur Verfügung.
 * Interne Ebene bietet Schnittstelle zu diesem.
 
-### Wo wird die Struktur der abzuspeichernden Informationen hinterlegt?
+## Wo wird die Struktur der abzuspeichernden Informationen hinterlegt?
 
 Datenbankschema legt die Struktur der abspeicherbaren Objekte fest.
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 4)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Inwieweit reflektiert sich diese Struktur in den Anwendungsprogrammen?
+## Inwieweit reflektiert sich diese Struktur in den Anwendungsprogrammen?
 
 * Das Anwendungsprogramm richtet sich nach der Struktur.
 * Bei Änderungen der Basistabellen muss das Anwendungsprogramm geändert werden, außer es werden Views verwendet.
 
-### Wie können komplexe Strukturen vereinfacht dargestellt werden?
+## Wie können komplexe Strukturen vereinfacht dargestellt werden?
 
 Views
 
-### Was legt ein Datenbankschema fest?
+## Was legt ein Datenbankschema fest?
 
 * Datenbankschema legt die Struktur der abspeicherbaren Objekte fest.
 * Das Schema sagt also nichts über die individuellen Datenobjekte aus.
@@ -82,7 +82,7 @@ Views
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 4)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Was versteht man unter den Begriffen DDL/DML?
+## Was versteht man unter den Begriffen DDL/DML?
 
 Datendefinitionssprache (DDL)
 
@@ -100,12 +100,12 @@ Datenmanipulationssprache (DML)
 
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 18-19)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
-### Wie reflektiert sich DDL/DML in der Architektur eines Datenbanksystems?
+## Wie reflektiert sich DDL/DML in der Architektur eines Datenbanksystems?
 
 * DDL -> Externe Ebene
 * DML -> Konzeptuelle Ebene
 
-### Gehen Sie auf einige Modellierungskonzepte ein, die sich aus der Schichtenarchitektur ergeben.
+## Gehen Sie auf einige Modellierungskonzepte ein, die sich aus der Schichtenarchitektur ergeben.
 
 * Entity-Relationship-Diagram (ER-Diagramm)
 * Relationen Modell
