@@ -80,8 +80,8 @@
 
 ## 12. Betriebliche Leistungserstellung (WINJ)
 
-1. eBusiness (eCommerce, Portaltechnologie, ...)
-2. IT im Dienstleistungsunternehmen (Banken, Versicherungen, Tourismus)
-3. IT im Handel
+1. [eBusiness (eCommerce, Portaltechnologie, ...)](./thema12/kap01.md)
+2. [IT im Dienstleistungsunternehmen (Banken, Versicherungen, Tourismus)](./thema12/kap02.md)
+3. [IT im Handel](./thema12/kap03.md)
 4. IT in der Öffentlichen Verwaltung (eGovernment, eZoll, eLAK, Gesundheitskarte, ...)
 5. Geschäftsprozessmanagement
