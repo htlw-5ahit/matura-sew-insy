@@ -2,11 +2,11 @@
 
 ## Verschachteln 
 * Es kann von einer Exception die obere Vererbungsstruktur gefangen werden, um möglichs wenige `catch{...}`-Blöcke zu haben.
-* z.B. Kann eine IOExcpetion und eine NFException als Exception gefangen werden, und in einem einzigen catch-Block gefangen und behandelt werden.
+* z.B. Kann eine `IOExcpetion` und eine `NFException` als `Exception` gefangen werden, und in einem einzigen catch-Block gefangen und behandelt werden.
 
 ## Throwen von Exceptions
 * Exceptions können mit dem Schlüsselwort `throw` im Anhang einer Methode, einer Klasse oder als neue Exception an die Klasse/Methode geworfen werden, welche die Methode aufruft.
-* Diese Klasse kann die Excpetion entweder weiterwerfen oder behandeln.
+* Diese Klasse kann die Exception entweder weiterwerfen oder behandeln.
 * Beispiele:
 
 ```java

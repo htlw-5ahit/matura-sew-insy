@@ -20,7 +20,7 @@ synchronized void showMsg(String  msg){ //synchronized method
 }  
 ```
 
-https://www.delftstack.com/howto/java/monitor-in-java/
+[https://www.delftstack.com/howto/java/monitor-in-java/](https://www.delftstack.com/howto/java/monitor-in-java/)
 
 ## Locks
 * flexiblerer und ausgefeilterer Thread-Synchronisierungsmechanismus als der synchronisierte Block
@@ -69,7 +69,7 @@ public class SharedObject {
     * `synchronizedSortedMap()`
     * `synchronizedSet()`
     * `synchronizedSortedSet()`
-* Bsp.:
+* Verwendung:
 
 ```java
 Collection<Integer> syncCollection = Collections.synchronizedCollection(new ArrayList<>());

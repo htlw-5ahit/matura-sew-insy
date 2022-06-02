@@ -24,5 +24,5 @@
 
 ## FXML-File
 * Wird automatisch von SceneBuilder erstellt und erweitert, je nachdem wie die GUI aussieht
-* Aufgebaut durch Tags wie HTML File 
+* Aufgebaut durch Tags wie HTML-Dateien 
 * XML-basiert

@@ -7,7 +7,7 @@
 
 ## Properties
 * Wichtige Daten, die ggf. für jeden Benutzer unterschiedlich sind, sollten in Properties gespeichert werden
-  - z.B IP-Adresse, Port, User, Passwort, usw.
+  - z.B.: IP-Adresse, Port, User, Passwort, usw.
 * Diese Properties müssen dann mittels einem FileInputStream eingelesen und mit dem Key kann dann auf die Attribute zugegriffen werden.
 * Grundgerüst:
 
@@ -25,19 +25,19 @@ try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(prope
 ## ServerSocket
 * Klasse: `java.net.ServerSocket`
 * Socket, der auf bestimmten Port gebunden ist
-* wartet auf eingehende Verbindungen
-* alles ok -> Verbindung wird akzeptiert
+* Wartet auf eingehende Verbindungen
+* Alles ok -> Verbindung wird akzeptiert
 * Server bekommt neuen Socket für die akzeptierte Verbindung
 * „Ursprünglicher“ Socket lauscht weiter auf eingehende Verbindungen
 
 ## ClientSocket
 * Klasse: `java.net.Socket`
 * Socket erstellen - Verbindungsaufbau zu Server
-* wird Verbindung akzeptiert, so kann der Client über diesen Socket mit Server kommunizieren
-* Client+Server können jeweils am Socket lesen/schreiben
+* Wird Verbindung akzeptiert, so kann der Client über diesen Socket mit Server kommunizieren
+* Client- sowie Server-Socket können jeweils am Socket lesen/schreiben
 
 ## Ablauf
 ![](./ServerClientAblauf.jpg)
 
 ## Beispiel EchoServer (Bereits mit Multithreading am Server)
-* [https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver)
+* [Echoserver](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/echoserver)

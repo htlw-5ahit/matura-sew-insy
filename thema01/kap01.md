@@ -69,7 +69,7 @@ printf("Zeiger-Wert: %d\n", *zeiger);
 ## Ein-/Ausgabe
 * Erfordert `#include <stdio.h>`
 * Formatierung mit `sprintf(array, "Format", variablen...)`
-* Ausgabe mit `printf("Text");` oder `printf("%d",&number);`
+* Ausgabe mit `printf("Text");` oder `printf("%d", &number);`
 * Einlesen mit `scanf("%d",&number);`
 * Zeichenkette einlesen mit `fgets(array, laenge, stdin/File)`
 
@@ -119,7 +119,7 @@ ptr = &value; // der Zeiger ptr zeigt auf value
 * Normalerweise wird in C eine Kopie der Variable übergeben
 * Änderungen von der Variable haben keine Auswirkung außerhalb der Funktion
 * Wird aber ein Zeiger auf die Variable übergeben, so ändert sich die Variablen
-*Bsp.:
+* Bsp.:
 
 ```c
 int main (){
@@ -159,8 +159,7 @@ int main () {
 	int *pa;
 	pa = a;
 	for (i = 0; i<4; i++)
-		printf („Adresse: %p, Wert: %2d\n“,
-			pa+i, *(pa+i));
+		printf ("Adresse: %p, Wert: %2d\n", pa+i, *(pa+i));
 	return 0;
 }
 ```

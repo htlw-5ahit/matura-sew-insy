@@ -34,7 +34,7 @@ Dieses Problem ist von vornherein mit gewissen Komplexitäten verbunden:
 * In manchen Fällen kann der Konsument langsamer sein als ein Produzent. In diesem Fall kommt es zu einem Überlauf der Warteschlange.
 * In realen Szenarien können wir mehrere Produzenten, mehrere Konsumenten oder beides haben. Dies kann dazu führen, dass ein und dieselbe Nachricht von verschiedenen Verbrauchern verarbeitet wird.
 
-* Schulbeispiel: [https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/producerconsumer](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/producerconsumer)
+* Schulbeispiel: [Producer & Consumer](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/producerconsumer)
 
-## Beispiel CalculatorServer (mit JavaFX am Client && Multithreading am Server)
+## Beispiel CalculatorServer (mit JavaFX am Client & Multithreading am Server)
 * [https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/calculatorserver](https://github.com/htlw-5ahit/matura-sew-insy/tree/main/thema03/calculatorserver)

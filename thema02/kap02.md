@@ -58,7 +58,7 @@ enum Jahreszeiten {FRUEHLING, SOMMER, HERBST, WINTER}
 
 ## Interfaces
 * Interface = Schnittstelle
-* 1 Klasse kann nur von 1er Klasse erben aber mehrere Interfaces implementieren
+* Eine Klasse kann nur von einer Klasse erben, aber mehrere Interfaces implementieren
     * Ersatzkonstrukt für Mehrfachvererbung
 * Stellt Konstanten und abstract Methoden (Methodendeklarationen) zur Verfügung, die dann in der Klasse ausprogrammiert werden müssen
 * Eine Klasse kann ein Interface mittels `public class ClassX implements InterfaceY` implementieren

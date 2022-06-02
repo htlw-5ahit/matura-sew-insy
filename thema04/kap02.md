@@ -4,7 +4,7 @@
 * Collections (=Container) sind Datenstrukturen, die eine Gruppe von Daten zu einer Einheit zusammenfassen
 * Collections sind standardmäßig nicht synchronisiert!
 * Datenelemente müssen gleichen Typ haben = generischer Datentyp
-* Foreach Schleifen können bei Collections verwendet werden
+* `foreach`-Schleifen können bei Collections verwendet werden (nur Lesezugriff!)
 ![](./CollectionsInterface.jpg)
 
 ## Collection: Unterschiede und welche gibt es?
@@ -12,8 +12,8 @@
 
 * Listen
   - Methoden
-    - add(), get(), clear(), contains(), isEmpty(), remove(), size(),toArray()
-  - Durchlaufen mittels Iterator möglich, wenn Elemente geändert werden sollten
+    - `add()`, `get()`, `clear()`, `contains()`, `isEmpty()`, `remove()`, `size()`, `toArray()`
+`  - Durchlaufen mittels Iterator möglich, wenn Elemente geändert werden sollten
 ```java
   // Iterator-Objekt „besorgen“
   Iterator<...> iter = arrList.iterator();
@@ -34,14 +34,14 @@
 
 * Set
   - Methoden
-    - add(), clear(), contains(), isEmpty(), remove(), size(), toArray()
-    - menge1.addAll(menge2)
+    - `add()`, `clear()`, `contains()`, `isEmpty()`, `remove()`, `size()`, `toArray()`
+    - `menge1.addAll(menge2)`
       - Vereinigungsmenge von menge1 und menge2
-    - menge1.containsAll(menge2)
+    - `menge1.containsAll(menge2)`
       - true, wenn menge1 eine Untermenge von menge2 ist.
-    - menge1.removeAll(menge2)
+    - `menge1.removeAll(menge2)`
       - Differenz beider Mengen gebildet.
-    - menge1.retainAll(menge2)
+    - `menge1.retainAll(menge2)`
       - Es wird der Durchschnitt beider Mengen bestimmt
   - HashSet
     - Das gespeicherte Objekt muss equals und hashCode überschrieben haben
@@ -49,20 +49,20 @@
     - Basieren auf Hash-Tabellen
   - TreeSet
     - Methoden
-      - first(),last()
-    - Das gespeicherte Objekt muss das Interface 'Comparable' implementieren
+      - `first()`, `last()`
+    - Das gespeicherte Objekt muss das Interface `Comparable` implementieren
       - int compareTo(T o)
-      - Rückgabewert: gleich 0, größer >0, kleiner <0
+      - Rückgabewert: gleich 0, größer > 0, kleiner < 0
     - Geordnete Speicherung
 * Map
   - Methoden
-    - put(key,value), get(key), remove(key), clear(), isEmpty(),  size(), containsKey(), containsValue(), entrySet(), keySet(), values()
+    - `put(key,value)`, `get(key)`, `remove(key)`, `clear()`, `isEmpty()`, `size()`, `containsKey()`, `containsValue()`, `entrySet()`, `keySet()`, `values()`
   - ForEach-Schleife für Ausgabe
   - HashMap
     - Das gespeicherte Objekt muss equals und hashCode überschrieben haben
     - Wenn kurzer Zugriff notwendig
   - TreeMap
-    - Das gespeicherte Objekt muss das Interface 'Comparable' implementieren
+    - Das gespeicherte Objekt muss das Interface `Comparable` implementieren
       - int compareTo(T o)
       - Rückgabewert: gleich 0, größer >0, kleiner <0
     - Sortierung: nur Wert des Schlüssels, nicht Element!

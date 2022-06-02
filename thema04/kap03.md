@@ -6,10 +6,10 @@
 
 ## Architektur
 * 2-stufig
-  - Client greif tdirekt auf DB zu
+  - Client greift direkt auf Datenbank zu
 * 3-stufig
   - Trennung: Anwendungslogik und Benutzeroberfläche bzw. Datenverwaltung
-  - Client kommuniziert mit Applicationserver, der greift auf Datenbank zu
+  - Client kommuniziert mit Applicationserver, welcher auf auf die Datenbank zugreift
 
 ## Connection
 * Klassen:
@@ -19,9 +19,9 @@
   - SQLException:
     - Behandlung im Fehlerfall
 * Interfaces
-  - Connection: repräsentiert eine DB-Verbindung
-  - Statement: führt SQL Anweisungen über die DBVerbindung aus
-  - ResultSet: Methoden, um auf das Ergebnis der SQLAbfrage
+  - `Connection`: repräsentiert eine DB-Verbindung
+  - `Statement`: führt SQL Anweisungen über die Datenbankverbindung aus
+  - `ResultSet`: Methoden, um auf das Ergebnis der SQL-Abfrage
 zuzugreifen
 * Properties
   - externes Property File für Verbindungsdaten
@@ -55,9 +55,9 @@ zuzugreifen
 ## Verwendung
 * Datenbankverbindung aufbauen
   - `Connection con = DriverManager.getConnection(url, user, pwd);`
-  - Zugriff auf DB erfolgt dann über Connection-Objekt con
+  - Zugriff auf Datenbank erfolgt dann über `Connection`-Objekt con
 * Infos über DBMS abfragen:
-  - DatabaseMetaData getMetaData() throws SQLException
+  - `DatabaseMetaData getMetaData() throws SQLException`
 * Statement Object erzeugen
   - `Statement stmt = con.createStatement();`
 * SQL-Anweisung ausführen
@@ -65,9 +65,9 @@ zuzugreifen
   - Änderung: `stmt.executeUpdate("INSERT INTO CUSTOMER VALUES (...)")`
       - Rückgabewert bei Insert/Update/Delete: Anzahl der geänderten Datensätze
 * Ergebnis der SQL Abfrage
-  - ResultSet mit resultSet.next() zeilenweise durchlaufen
-  - Anfang: .first()
-  - Ende: .last()
+  - ResultSet mit `resultSet.next()` zeilenweise durchlaufen
+  - Anfang: `.first()`
+  - Ende: `.last()`
   - Spaltenzugriff über getXXX( ) Methoden
     - Spaltenindex bzw. Spaltenname als Parameter
     - Entsprechend den Java-Typen gibt es passende getter-Methoden in der Klasse ResultSet
@@ -83,12 +83,12 @@ zuzugreifen
   }
 ```
 
-* Am Ende müssen ResultSets, Statements, PreparedStatements & Connection mit .close() geschlossen werden
-  - Deswegen in der Management-Klasse das Interface 'AutoClosable' implementieren und die Management-Klasse in einem TryWithResources öffnen
+* Am Ende müssen ResultSets, Statements, PreparedStatements & Connection mit `.close()` geschlossen werden
+  - Deswegen in der Management-Klasse das Interface `AutoClosable` implementieren und die Management-Klasse in einem TryWithResources öffnen
 
 ## Transaktion
 * Reihe von SQL Anweisungen
-* überführt DB von konsistenten in neuen konsistenten Zustand
+* Überführt Datenbank von konsistenten in neuen konsistenten Zustand
 * Alle Anweisungen werden entweder
   - Durchgeführt = commit
   - Abgebrochen und zurückgenommen = roll back
@@ -142,8 +142,9 @@ String query        = "SELECT * FROM users where id="+spoiledData;
 
 ## Blobs
 * Binary Large Objects
+* Zum Speichern von Dateien in Datenbanken (zB. Profilbild)
 * Verwenden Streams zum Lesen/Schreiben
-* BLOB speichern
+* Blob speichern:
 
 ```java
 // idx ... Index des Platzhalters im SQL-String
