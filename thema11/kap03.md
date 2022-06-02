@@ -44,8 +44,8 @@
 
 * Aktiv
 	* hohe Reichweite
-	* aufwandigeHerstellung
-	* benötigen Energiequelle,z.B. Batterie oder Fahrzeug-Bordnetz
+	* aufwändige Herstellung
+	* benötigen Energiequelle z.B. Batterie oder Fahrzeug-Bordnetz
 
 * Funktionsweise
 
@@ -68,9 +68,16 @@
 
 * Anwendungsfälle
 	* Produkte im Supermarkt 
-	* Smart Shelf im Supermarkt
+	* Smart Shelf im Supermarkt (Regal mit RFID-Lesegeraten)
 	* Löst Bar-Code ab
 	* Reisepass
+	* Inventur
+	* Vereinfachtes kassieren
+	* Wareneingangsmanagement
+	* Wareneingangsplanung
+	* WA & -kontrolle, Einlagerung & EB
+	* Warenannahme und -kontrolle
+	* Lagermanagement
 
 * Vergleich mit Bar-Code
 
@@ -93,6 +100,7 @@
 	* Relay-Angriffe
 		* durch spezielle Antennen/elektronische Verstärkung Lesereichweite erhöhen, z.B. Anwesenheit einer Schlüsselkarte aus der Entfernung vortäuschen
 	* Einziger Schutz bisher: beschränkte Reichweite
+
 
 ## EAN/Strichcode
 * European Article Number

@@ -160,3 +160,11 @@
 	* Keine E Mail Postfächer (nur
 	* Abstriche bei den lokalen Zahlungsmethoden
 	* Probleme mit der lokalen Mehrwertsteuer
+	
+## Kriterien
+* zukunftstauglich
+* ease of use
+* performance
+* Kosten
+* eingebundene Workflows
+* Rechte & Rollenverteilungen
