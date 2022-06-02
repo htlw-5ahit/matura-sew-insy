@@ -14,11 +14,12 @@ Allg: Darstellung in Klassendiagramm
     * Ziel: Definition von Hilfsklassen möglichst nahe an der Stelle, wo sie gebraucht werden.
 
 * Wrapper Klassen
-    * Eine Wrapper-Klasse kapselt die jeweilige primitive Variable in einem sehr einfachen Objekt
+    * Eine Wrapper-Klasse kapselt die jeweilige primitive Variable (Datentyp) in einem sehr einfachen Objekt
     * Bsp:
-       * boolean -> java.lang.Boolean
-       * int -> java.lang.Integer
-       * char -> java.lang.Character
+       * boolean -> `java.lang.Boolean`
+       * int -> `java.lang.Integer`
+       * char -> `java.lang.Character`
+       * ...
 
 * Enumerations
     * Aufzählungsklasse

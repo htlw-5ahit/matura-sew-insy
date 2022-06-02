@@ -73,6 +73,7 @@ zuzugreifen
     - Entsprechend den Java-Typen gibt es passende getter-Methoden in der Klasse ResultSet
       - getByte()
       - getInt()
+      - getString()
       - usw.
 
 ```java

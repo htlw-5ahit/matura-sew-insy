@@ -18,7 +18,7 @@
   // Iterator-Objekt „besorgen“
   Iterator<...> iter = arrList.iterator();
   // Durchlauf durch gesamte Collection
-  while(iter.hasnext()) {
+  while(iter.hasNext()) {
   // aktuelles Element
   curr = iter.next();
   // mach was mit dem Element
@@ -44,7 +44,7 @@
     - `menge1.retainAll(menge2)`
       - Es wird der Durchschnitt beider Mengen bestimmt
   - HashSet
-    - Das gespeicherte Objekt muss equals und hashCode überschrieben haben
+    - Das gespeicherte Objekt sollte `hashCode()`-Methode überschrieben haben
     - Wenn kurzer Zugriff notwendig
     - Basieren auf Hash-Tabellen
   - TreeSet
@@ -59,7 +59,7 @@
     - `put(key,value)`, `get(key)`, `remove(key)`, `clear()`, `isEmpty()`, `size()`, `containsKey()`, `containsValue()`, `entrySet()`, `keySet()`, `values()`
   - ForEach-Schleife für Ausgabe
   - HashMap
-    - Das gespeicherte Objekt muss equals und hashCode überschrieben haben
+    - Das gespeicherte Objekt sollte `hashCode()`-Methode überschrieben haben
     - Wenn kurzer Zugriff notwendig
   - TreeMap
     - Das gespeicherte Objekt muss das Interface `Comparable` implementieren
