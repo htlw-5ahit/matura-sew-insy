@@ -20,7 +20,7 @@
 ## Was versteht man unter dem Begriff "ORM"?
 
 * Object-Relation-Mapping
-    * Java Persitance API
+    * Java Persistance API
     * Objektrelationales Mapping
 
 ## Was versteht man unter dem Begriff „impedance mismatch“ in Hinblick auf Programmiersprachen und Datenbanken?
