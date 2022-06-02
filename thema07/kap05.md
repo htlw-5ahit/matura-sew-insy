@@ -35,6 +35,7 @@
 ## Erläutere die einzelnen Konzepte des Diagramms (Klassendiagramm).
 
 * Multiplizität (Beziehungen)
+* Aggregation, usw.
 
 ## Wie gehe ich bei der Erstellung eines UML Modells vor.
 
@@ -49,7 +50,7 @@
 
 ## Welche Elemente/Teile des Diagramms werden nicht umgesetzt bzw. gebraucht (JPA).
 
-* Ausnahme von Attribute: `volatil`/`transient`
+* Attribute mit `transient` Modifier
 
 ## Vergleichen Sie ER- und UML-Diagramm. Welche Vorteile bietet das UML-Modell gegenüber dem ER-Modell?
 
