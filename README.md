@@ -53,11 +53,10 @@
 
 ## 9. Relationale Abfragesprachen, Prozedurale Erweiterungen und Datenbankanbindung (GAME)
 
-1. [Structured Query Language (SQL)](thema09/kap01.md)
+1. [Structured Query Language (SQL) & Standards](thema09/kap01.md)
 2. [Views und Indizes](thema09/kap02.md)
-3. SQL Standards Überblick
-4. [Prozedurale Erweiterungen mit PL/SQL](thema09/kap04.md)
-5. [Anbindungsmöglichkeiten einer Datenbank an Anwendungen(JDBC, JPA)](thema09/kap05.md)
+3. [Prozedurale Erweiterungen mit PL/SQL](thema09/kap03.md)
+4. [Anbindungsmöglichkeiten einer Datenbank an Anwendungen(JDBC, JPA)](thema09/kap04.md)
 
 ## 10. NoSQL-Datenbanken und Anwendungen (GAME)
 
