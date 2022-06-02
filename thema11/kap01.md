@@ -119,7 +119,7 @@
 * 2010
 * High Performance Analytic Appliance
 * für das Big Data Umfeld geeignet
-* sämtliche Daten im Arbeitsspeicher vorgehalten, die Datenbank ist damit zu extrem leistungsfähigen Analysen und Berechnungen imstande
+* In-Memory Datenbank  => sämtliche Daten im Arbeitsspeicher vorgehalten, die Datenbank ist damit zu extrem leistungsfähigen Analysen und Berechnungen imstande
 * Daten können in relationaler DB vorliegen
 * Vorteile
 	* Schneller lesender Zugriff durch In-Memory-Technologie
@@ -128,10 +128,30 @@
 	* Möglichkeit zur Nutzung komplexer Algorithmen, auch geeignet für Vorhersagemodelle
 	* SAP HANA ist SQL-kompatibel und kann auch von NON-SAP-Anwendungen genutzt werden
 	* Bringt eine eigene Entwicklungsumgebung mit
+	
 * Nachteile
 	* Bei einem Systemausfall gehen die Daten des Arbeitsspeichers verloren und sind ggf. zu diesem Zeitpunkt noch nicht gesichert worden
 	* Es wird vergleichsweise teure Hardware benötigt
 
+## SAP S/4 HANA
+* Deckt alltägliche Prozesse eines Unternehmens ab
+* Deployment Options
+	* SAP S/4HANA On-premise
+	* SAP S/4HANA Cloud
+	* SAP S/4HANA Private Cloud
+	* HANA Enterprise Cloud
+
+![](./S_4_HANA.png)
+
+## SAP SD
+* Sales and Distribution
+* ermöglicht Unternehmen, den Verkauf von Produkten und Dienstleistungen sowie sämtliche Vertriebsaktivitäten abzubilden
+* umfasst die Durchführung zahlreicher Absatz- und Vertriebsprozesse vom ersten Kundenkontakt über die Auftragsabwicklung bis hin zur Fakturierung
+
+## SAP MM
+* Material Management
+* unterstützt die im Tagesgeschäft auftretenden Beschaffungs- und Bestandsfunktionen
+* Einkauf, Wareneingang, Materiallagerung, verbrauchsbasierte Planung und Inventur
 
 ## OpenSource ERP-Systeme
 * Warum haben sie nicht funkioniert?

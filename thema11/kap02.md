@@ -4,6 +4,7 @@
 * Software für Content Management
 * Schwerpunkt auf Web Content Management Systeme
 * Typische Einsatzbereiche: Pressemitteilungen, Stellenangebote und Veranstaltungen
+* PHP-basierte Systeme
 
 * Unterscheidungen
 	* Kommerzielle Produkte  (pirobades, RedDot, Vignette, usw.)
@@ -160,3 +161,11 @@
 	* Keine E Mail Postfächer (nur
 	* Abstriche bei den lokalen Zahlungsmethoden
 	* Probleme mit der lokalen Mehrwertsteuer
+	
+## Kriterien
+* zukunftstauglich
+* ease of use
+* performance
+* Kosten
+* eingebundene Workflows
+* Rechte & Rollenverteilungen

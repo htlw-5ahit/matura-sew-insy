@@ -25,12 +25,13 @@
 
 * Flexcube (Bankingsoftware von Oracle)
 * Früher alle eigene Lösungen, heute Standardlösungen
-* Weil viel Online erledigt wird, werden Banken zusammengelegt => Verringerung der Standorte
+* Fusionierung
+	* Weil viel Online erledigt wird, werden Banken zusammengelegt => Verringerung der Standorte
+
 * CBDC
 	* Central bank digital currencies
 	* digitale Token, ähnlich wie Kryptowährungen, die von einer Zentralbank ausgegeben werden. 
 	* Sie sind an den Wert der Fiat-Währung (z.B. Euro) dieses Landes gebunden.
-
 
 * Fintechs
 	* setzt sich aus den Anfangssilben von Finanzdienstleistungen und Technologie zusammen. 
@@ -49,16 +50,30 @@
 		* Auf OnlineBanking spezialisiert
 		* Keine Gebühren auf Auslandszahlungen
 	
-* DEFI
-	* Dezentralisierte Währung (z.B. Kryptowährungen)
-	* Keine Banken
-	* Ohne Mittelsmann
-	* (So wenig wie möglich) keine Überwachung bei Zahlungen
-
 ### Größte Banken (weltweit)
 * Erste 4 Chinesisch
 
 ![](./Top_Banken.png)
+
+## DEFI
+	* Sammelbegriff für Finanzdienstleistungen, die über öffentliche Blockchains angeboten werden
+	* deckt einen Großteil des Leistungsumfangs von Banken ab
+	* zum Beispiel Zinsen erwirtschaften, Kredite aufnehmen, Geld verleihen, Versicherungen kaufen
+	* global, peer-to-peer
+	* keine Angabe von Klarnamen und offen für alle
+	* Keine Banken
+	* Ohne Mittelsmann
+
+## Kryptowährungen
+	* digitales Zahlungsmittel, welches auf kryptografischen Werkzeugen basiert
+	* Dies können beispielsweise Blockchains oder andere digitale Signaturen sein
+	* keine reguläre Währung
+	* durch ein Internetprotokoll überwacht
+	* Beispiele:
+		* Bitcoin
+		* Ethereum
+		* Ripple
+		* Tether
 
 ## Versicherung
 
