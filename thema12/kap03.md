@@ -62,8 +62,12 @@
 	* Erfolgt meist über Kundenkarten
 	* Welche Personengruppe kauft welche Produktearten
 	* Komsumverhalten widerspiegeln
+	
 * Wie muss man was platzieren
 	* Teurere Produkte meist auf Augenhöhe
 	* Billigere Meist versteckter
 	* Bei Kassen noch kleinere "Mitbringsel" (Kaugummis, Süßigkeiten, Rasierer, usw.)
 	* Abteilungen so angeordnet, dass Kunde gerne einkaufen geht (beim Eingang angenehme Gerüche, usw.)
+	
+## Industrie 4.0
+*

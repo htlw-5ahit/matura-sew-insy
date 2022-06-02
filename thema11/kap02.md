@@ -4,6 +4,7 @@
 * Software für Content Management
 * Schwerpunkt auf Web Content Management Systeme
 * Typische Einsatzbereiche: Pressemitteilungen, Stellenangebote und Veranstaltungen
+* PHP-basierte Systeme
 
 * Unterscheidungen
 	* Kommerzielle Produkte  (pirobades, RedDot, Vignette, usw.)
