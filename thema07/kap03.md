@@ -28,7 +28,7 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 9)](../archiv/insy-game/jahrgang3/
 
 Datenunabhängigkeit
 
-* Änderung des Schemas einer Schicht erfordert keine Änderung des übergeordneten Schemas (Küng)
+* Änderung des Schemas einer Schicht erfordert keine Änderung des übergeordneten Schemas
 * Die ANSI-SPARC macht logische und physische Datenunabhängigkeit durch Einführung der 3 Ebenen möglich
     * logische Datenunabhängigkeit: da externe Schema Anwendungen vor Änderungen des internen Schema (z.B. Änderungen am Schema) schützen
     * physische Datenunabhängigkeit: da konzeptuelles Schema Anwendungen vor Änderungen des internen Schemas (z.B. Tuning) schützt
