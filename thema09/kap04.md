@@ -1,4 +1,4 @@
-# 9.5. Anbindungsmöglichkeiten einer Datenbank (JDBC, JPA)
+# 9.4. Anbindungsmöglichkeiten einer Datenbank (JDBC, JPA)
 
 ## Was ist JDBC?
 
@@ -103,7 +103,7 @@ Quelle:
 
 ## Was brauche ich dafür?
 
-???
+* [persistence.xml](https://github.com/htlw-5ahit/htlw4-insy-miete/blob/master/src/META-INF/persistence.xml)
 
 ## Was ist automatisiert, was muss ich modellieren?
 
