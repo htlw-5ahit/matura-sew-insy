@@ -7,7 +7,7 @@
 * wird JDCBC verwendet: kein DB-speziﬁscher Code im Programmen
     * Abstraktionsschicht zwischen Java und SQL
 
-[4400_JDBC_v2 (S. 4)](../archiv/sew-helt/4400_JDBC_v2.pdf)
+Quelle: [4400_JDBC_v2 (S. 4)](../archiv/sew-helt/4400_JDBC_v2.pdf)
 
 ## Vorteile von der Verwendung von JDBC.
 
@@ -35,7 +35,7 @@ Quelle: [https://www.bigdata-insider.de/was-ist-jdbc-java-database-connectivity-
 
 ![](./JDBC_Architektur_3.png)
 
-[4400_JDBC_v2 (S. 6-7)](../archiv/sew-helt/4400_JDBC_v2.pdf)
+Quelle: [4400_JDBC_v2 (S. 6-7)](../archiv/sew-helt/4400_JDBC_v2.pdf)
 
 ## Welche wird hauptsächlich verwendet?
 
