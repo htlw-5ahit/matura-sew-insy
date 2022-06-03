@@ -113,7 +113,8 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 7
 
 ## Erklären Sie rekursive Datenstrukturen im ER-Modell.
 
-???
+* Unäre Beziehung
+* Ein Objekt zeigt auf sich selbst, z.B.: Person ist verwandt mit Person.
 
 ## Welche Beziehungen (Kardinalitäten!) können unmittelbar als Relationenschema (im Relationenmodell) dargestellt werden?
 
@@ -124,7 +125,7 @@ Quelle: [7-Relationenmodell-Einführung (S. 24)](../archiv/insy-game/jahrgang3/
 
 ## Was muss ich bei der Umsetzung der Beziehungen beachten?
 
-???
+* Notation & Schlüsselattribute (bzw. Fremdschlüssel) beachten.
 
 ## Wie können „schwache Entitäten“ als ER-Diagramm bzw. als Tabellenschema modelliert werden?
 
@@ -140,7 +141,7 @@ Quelle: [6-ER-Modellierung-KonsolidierungWeakStrongEntitiesGeneralisierung (S. 6
 
 ## Warum dürfen/sollen Beziehungen nicht in Beziehung zu anderen Beziehungen stehen?
 
-???
+* Schwierig in Tabellen darstellbar, bzw. kein Überblick mehr vorhanden
 
 ## Was versteht man in diesem Zusammenhang unter „Uminterpretation“?
 
