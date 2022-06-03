@@ -87,16 +87,24 @@ Quelle: [SQL-Relationenalgebra (S. 22-23)](../archiv/insy-game/jahrgang3/SQL-Rel
 ### Was bedeuten "Attribut", "Wertebereich", "funktionale Abhängigkeit" und "voll funktionale Abhängigkeit"?
 
 * Attribut
+    * Name der Spalte
 * Wertebereich
+    * Zeigt, welche Werte ein bestimmtes Attribut annehmen kann
+    * zB. `GESCHLECHT = {männlich, weiblich}`
 * funktionale Abhängigkeit
+    * Attribut B ist von Attribut A abhängig, wenn zu jedem Wert von A höchstens ein Wert von B auftreten kann.
+    * Beispiel: <img src="./Abhaengigkeiten1.png" height="100">
+        * Das Attribut Name ist funktional abhängig vom Attribut ID (ID --> Name).
 * voll funktionale Abhängigkeit
+    * B ist genau dann von A voll funktional abhängig, wenn B von A funktional abhängig ist, aber nicht bereits von Teilen von A.
+    * Beispiel: <img src="./Abhaengigkeiten2.png" height="100">
+        * Das Attribut „Note“ ist voll funktional abhängig von den Attributen „IDStudent“ und „IDProffesor“ („IDSt, IDProf ==> Note“).
+
+Quelle: [http://www.gitta.info/LogicModelin/de/html/DataConsiten_Abhaeng.html](http://www.gitta.info/LogicModelin/de/html/DataConsiten_Abhaeng.html)
 
 ### Welche Eigenschaften haben Relationen?
 
-Verweis:
-* [https://www2.informatik.hu-berlin.de/~enseleir/tutorium/Relationen.pdf](https://www2.informatik.hu-berlin.de/~enseleir/tutorium/Relationen.pdf)
-* [https://www.matheretter.de/wiki/eigenschaften-relationen](https://www.matheretter.de/wiki/eigenschaften-relationen)
-* [https://www.cis.uni-muenchen.de/~finkf/mm/slides/10_relationsIII.pdf](https://www.cis.uni-muenchen.de/~finkf/mm/slides/10_relationsIII.pdf)
+* Attribute, Tupel, Domänen (Wertebereich)
 
 ### Welche sind die im Relationen-Modell verfügbaren relationalen Operatoren und welche sind die Mengenoperatoren.
 
