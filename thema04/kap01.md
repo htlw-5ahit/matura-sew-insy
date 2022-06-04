@@ -20,7 +20,7 @@
 ## Dateien
 * Bei Dateien Streams immer buffern
 * Öffnet man einen Stream auf eine vorhandene Datei, so wird diese überschrieben.
-  - Falls man etwas anhängen möchte, so kann man im FileWriter/FileOutputStream-Konstruktor als 2. Argument true übergeben, um dadurch den Append-Modus aktivieren zu können
+  - Falls man etwas anhängen möchte, so kann man im FileWriter-/FileOutputStream-Konstruktor als 2. Argument true übergeben, um dadurch den Append-Modus aktivieren zu können
 * Binär: `FileInputStream`/`FileOutputStream`
 * Text: `FileReader`/`FileWriter` (evt. `Scanner`)
 
