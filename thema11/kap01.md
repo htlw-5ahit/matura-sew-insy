@@ -1,7 +1,7 @@
 # 11.1. ERP-Systeme
 
 ## Was ist ein ERP-System
-* Enterprise Resource Planning steuert die im Unternehmen vorhandenen Ressourcen (z.B.: Kapital, Mitarbeieter, Betriebsmittel)
+* Enterprise Resource Planning steuert die im Unternehmen vorhandenen Ressourcen (z.B.: Kapital, Mitarbeiter, Betriebsmittel)
 * Organisation aller administrativen, dispositiven und kontrollierenden Tätigkeiten
 * Früher wurden für alle Abteilungen eigene Programme erstellt
 * Somit konnten Geschäftsprozesse schwer verfolgt und angepasst werden
