@@ -459,13 +459,13 @@ new Thread(task).start();
 ```
 
 ## Platform.runLater (unwahrscheinlich zur Matura)
-* Soll eine GUI Komponente von einem Nicht-GUI-Thread heraus modifiziert werden, so kann Platform.runLater verwendet werden
-* public static void runLater(Runnable runnable)
-	* die Aufgabe wird in den GUI Thread eingereiht und frühest möglich abgearbeitet
-	* kleinere Aufgaben können ebenso mit Platform.runlater() realisiert werden
-	* größere/rechenintensivere Aufgaben mittels Threads!
+* Soll eine GUI Komponente von einem Nicht-GUI-Thread heraus modifiziert werden, so kann `Platform.runLater` verwendet werden
+* `public static void runLater(Runnable runnable)`
+	* Die Aufgabe wird in den GUI Thread eingereiht und frühest möglich abgearbeitet
+	* Kleinere Aufgaben können ebenso mit `Platform.runLater()` realisiert werden
+	* Größere/rechenintensivere Aufgaben mittels Threads!
 	
 * Annahme: Eine ListView wird über ein Property an einenService „gebindet“
-	* listView.itemsProperty().bind(myListService.resultProperty());	
+	* `listView.itemsProperty().bind(myListService.resultProperty());`	
 * in dem Fall muss eine Änderung der ListView über runlater realisiert werden:
-	* Platform.runLater(() -> result.add("Element " + finalI));
+	* `Platform.runLater(() -> result.add("Element " + elem));`
