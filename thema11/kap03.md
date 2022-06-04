@@ -117,8 +117,7 @@
 	* transparente, weltweite Standardisierung (zzt.90% aller Waren)
 
 * Nachteile
-	* Einzelpreisauszeichnung verloren gegangen (Preis an dem Produkt)
-	* Für Kunde verwirrend
+	* Einzelpreisauszeichnung verloren gegangen (Preis an dem Produkt) => Für Kunde verwirrend
 	
 * Andere Produktkennzeichen
 	* ISBN, ISMN, ISRC, ISSN, PZN
