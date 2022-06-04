@@ -15,9 +15,19 @@
 * Datei schreiben
   - Zeichenweise: `int fputc(int c, FILE *fp);`
   - Formatiert: `int fprintf(FILE *fp, const char *format [, arguments]);`
+  - Array/Struct: `size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)`
+    - ptr − This is the pointer to the array of elements to be written.
+    - size − This is the size in bytes of each element to be written.
+    - nmemb − This is the number of elements, each one with a size of size bytes.
+    - stream − This is the pointer to a FILE object that specifies an output stream.    
 * Datei lesen
   - Zeichenweise: `int fgetc(FILE *fp);`
-  -  Formatiert: `int fscanf(FILE *fp, char *format [, arguments]);`
+  - Formatiert: `int fscanf(FILE *fp, char *format [, arguments]);`
+  - Array/Struct: `size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)`
+    - ptr − This is the pointer to a block of memory with a minimum size of size*nmemb bytes.
+    - size − This is the size in bytes of each element to be read.
+    - nmemb − This is the number of elements, each one with a size of size bytes.
+    - stream − This is the pointer to a FILE object that specifies an input stream.  
 * [Files Übung](https://github.com/htlw-5ahit/matura-sew-insy/blob/main/thema01/files/main.c)
 
 ## Fehlerbehandlung
