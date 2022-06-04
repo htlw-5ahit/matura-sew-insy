@@ -141,17 +141,17 @@ System.out.println(„number2 hat Wert: „ + number2.getValue());
 	* eigene Klasse ableiten von ObjectBinding<T>
 	* im Konstruktor ein passendes Property annehmen (muss nicht vom Typ T sein!)
 	* Property als Attribut speichern
-	* T computeValue() Methode implementieren, die ein
+	* `T computeValue()` Methode implementieren, die ein
 	* Objekt retourniert, welches über das Property gebindet wurde
 
 
 ### Boolean Bindings
 * Boolean Bindings: Logische Verknüpfung von BooleanProperty
-	* .greaterThan / .greaterThanOrEqualTo
-	* .isEqualTo / .isNotEqualTo
-	* .lessThan / .lessThanOrEqualTo
-	* .and / .or
-	* isNotEmpty
+	* `.greaterThan` / `.greaterThanOrEqualTo`
+	* `.isEqualTo` / `.isNotEqualTo`
+	* `.lessThan` / `.lessThanOrEqualTo`
+	* `.and` / `.or`
+	* `isNotEmpty`
 * Bsp:
 * in einem Textfield überprüfen, ob Eingabe mit mindestens 3 Zeichen:
 
@@ -288,20 +288,20 @@ listProperty.add("iPhone11");
 listProperty.remove(0);
 ```
 
-* ... myListView.getSelectionModel().getSelectedItem() liefert das ausgewählte Item
-* ... myListView.getSelectionModel().selectedItemProperty() liefert das Property des ausgewählten Elements für Bindings
+* ... `myListView.getSelectionModel().getSelectedItem()` liefert das ausgewählte Item
+* ... `myListView.getSelectionModel().selectedItemProperty()` liefert das Property des ausgewählten Elements für Bindings
 
 ## Task 
 * implementiert das Worker Interface
 * Verwendung für einmalige Hintergrundberechnungen (abgeleitet von FutureTask)
 * Task implementiert Runnable, somit auch Start über Executor möglich
-* Ergebnis des Tasks mit Methode get(), wenn Berechnung zu Ende ist
-	* Berechnung noch nicht am Ende: get() blockiert
-* in call() Methode wird Arbeit verrichtet und gegebenenfalls Properties aktualisiert
+* Ergebnis des Tasks mit Methode `get()`, wenn Berechnung zu Ende ist
+	* Berechnung noch nicht am Ende: `get()` blockiert
+* in `call()` Methode wird Arbeit verrichtet und gegebenenfalls Properties aktualisiert
 
 * Fortschritt aktualisieren:
-	* in call() wird Methode updateProgress aufrufen
-	* über task.progressProperty() kann ein Binding auf z.B. eine Progressbar realisiert werden
+	* in `call()` wird Methode updateProgress aufrufen
+	* über `task.progressProperty()` kann ein Binding auf z.B. eine Progressbar realisiert werden
 
 * Tasks unterbrechen
 	* vgl. „interrupt“ in Threads
@@ -333,10 +333,10 @@ task.setOnSucceeded((WorkerStateEvent event) -> {
 	* führt Tasks in vorbestimmten Intervallen
 
 * Klasse Service - wichtige Methoden:
-	* start() - startet den Service
-	* reset() - resettet den Service, funktioniert aber nur, wenn Thread in finished Status ist (SUCCEEDED, FAILED, CANCELLED, READY)
-	* restart() - laufender Thread wird gecancelt und dann neu gestartet
-	* cancel() - canceled laufenden Thread
+	* `start()` - startet den Service
+	* `reset()` - resettet den Service, funktioniert aber nur, wenn Thread in finished Status ist (SUCCEEDED, FAILED, CANCELLED, READY)
+	* `restart()` - laufender Thread wird gecancelt und dann neu gestartet
+	* `cancel()` - canceled laufenden Thread
 
 * Task definieren:
 
@@ -457,7 +457,7 @@ ProgressBar bar = new ProgressBar();
 bar.progressProperty().bind(task.progressProperty());
 new Thread(task).start();
 ```
-s
+
 ## Platform.runLater (unwahrscheinlich zur Matura)
 * Soll eine GUI Komponente von einem Nicht-GUI-Thread heraus modifiziert werden, so kann Platform.runLater verwendet werden
 * public static void runLater(Runnable runnable)
