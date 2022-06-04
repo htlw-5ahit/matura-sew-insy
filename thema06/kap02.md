@@ -81,7 +81,7 @@
 
 - Adapter stellt ein – evtl. vorhandenes - Interface in einem anderem, davon abweichenden Interface zur Verfügung, sodass eine nahtlose Einbindung in einen inkompatiblen Client möglich wird.
 - In Umgebungen mit Einfachvererbung geschieht dies durch Delegation an ein referenziertes Objekt (Adaptee) des zu integrierenden Typs.
-- Beispiel: TextView (UI-Element) kann als StringBuffer betrachteet werden.
+- Beispiel: TextView (UI-Element) kann als StringBuffer betrachtet werden.
 - Vorteile:
 	- zwei oder mehr inkompatible Typen interagieren
 	- bestehende inkompatible Funktionalität soll anderweitig genutzt werden
