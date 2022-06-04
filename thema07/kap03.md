@@ -102,8 +102,8 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 18-19)](../archiv/insy-game/jahrga
 
 ## Wie reflektiert sich DDL/DML in der Architektur eines Datenbanksystems?
 
-* DDL -> Externe Ebene
-* DML -> Konzeptuelle Ebene
+* DML -> Externe Ebene
+* DDL -> Konzeptuelle Ebene
 
 ## Gehen Sie auf einige Modellierungskonzepte ein, die sich aus der Schichtenarchitektur ergeben.
 
