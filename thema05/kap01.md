@@ -1,7 +1,7 @@
 # 5.1. SceneBuilder, MVC, FXML-File
 
 ## MVC
-* Separiert Logik von Presentation
+* Separiert Logik von Präsentation
 
 ### Model
 * Logik & Datenspeicherung
