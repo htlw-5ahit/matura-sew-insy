@@ -13,7 +13,7 @@
 * Listen
   - Methoden
     - `add()`, `get()`, `clear()`, `contains()`, `isEmpty()`, `remove()`, `size()`, `toArray()`
-`  - Durchlaufen mittels Iterator möglich, wenn Elemente geändert werden sollten
+  - Durchlaufen mittels Iterator möglich, wenn Elemente geändert werden sollten
 ```java
   // Iterator-Objekt „besorgen“
   Iterator<...> iter = arrList.iterator();
