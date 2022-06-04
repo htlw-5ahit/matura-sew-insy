@@ -92,17 +92,17 @@
     - DoubleEndedQueue
     - An beiden Enden können Elemente angefügt und entnommen werden
   - Methoden
-    - element: Element vom Kopf der Queue, wenn leer dann NoSuchElementException
-    - peek: wie element(), nur null, falls leer
-    - remove: wie element(), nur mit entfernen des Elements
-    - poll: wie peek, nur mit entfernen des Elements
-    - offer: fügt Element in Queue ein
+    - `element`: Element vom Kopf der Queue, wenn leer dann NoSuchElementException
+    - `peek`: wie element(), nur null, falls leer
+    - `remove`: wie element(), nur mit entfernen des Elements
+    - `poll`: wie peek, nur mit entfernen des Elements
+    - `offer`: fügt Element in Queue ein
 * Stack
   - LIFO -> Last In, First Out
   - Methoden
-    - push: auf Stapel legen
-    - pop: von Stapel nehmen
-    - peek: oberstes Element vom Stapel ansehen
+    - `push`: auf Stapel legen
+    - `pop`: von Stapel nehmen
+    - `peek`: oberstes Element vom Stapel ansehen
 
 
 ## Threadsave Collections
