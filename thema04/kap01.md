@@ -8,14 +8,14 @@
 
 ## Streams/Reader
 * BinaryStreams (Input-/OutputStream)
-  - DataInputStream/DataOutputStrea`
-  - ObjectInputStream/ObjectOutputStream
+  - `DataInputStream`/`DataOutputStrea`
+  - `ObjectInputStream`/`ObjectOutputStream`
 
 ![](./Streams.png)
 
 * CharacterStreams (Reader/Writer)
-  - BufferedReader/BufferedWriter
-  - PrintWriter
+  - `BufferedReader`/`BufferedWriter`
+  - `PrintWriter`
 
 ## Dateien
 * Bei Dateien Streams immer buffern
