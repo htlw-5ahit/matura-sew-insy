@@ -55,5 +55,5 @@
 ## Vergleichen Sie ER- und UML-Diagramm. Welche Vorteile bietet das UML-Modell gegenüber dem ER-Modell?
 
 * Viel mehr Möglichkeiten
-* Detailierte Beziehungen (Beispiel: Auto mit Rändern)
+* Detailierte Beziehungen (Beispiel: Auto mit Rädern)
 * Existenzabhängigkeit: Aggregation, Vererbung
