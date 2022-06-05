@@ -20,8 +20,6 @@ Quelle: [3-DBSArchitekturUnabhängigkeit (S. 8)](../archiv/insy-game/jahrgang3/
 | Konzeptuelle Ebene<br>(konzeptuelles Schema) | - legt das Datenbankschema  (Metadatenmodell) fest<br>- systemunabhängige Datenbeschreibung, d.h. sie ist unabhängig von den eingesetzten Datenbank- und Computersystemen.<br>- Verbirgt Details der physische Speicherung<br>- ER-Modell, Relationenmodell, Normalisieren -> Schema |
 | Externe (View) Ebene<br>(externes Schema) | Beschreibt nur den Teil an dem eine bestimmte Benutzergruppe interessiert ist und verbirgt den Rest z.B. SQL Statement<br>- Berechtigungen, kleiner Ausschnitt der Daten für gewisse Benutzer, wie zB. durch Views  |
 
-* Interne Ebene DBMS und darunter Betriebssystem
-
 Quelle: [3-DBSArchitekturUnabhängigkeit (S. 9)](../archiv/insy-game/jahrgang3/3-DBSArchitekturUnabha%CC%88ngigkeit.pdf)
 
 ## Welche Gründe sprechen für dieses Modell?
