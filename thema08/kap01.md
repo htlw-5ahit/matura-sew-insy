@@ -66,7 +66,7 @@ Hierbei ist die Reihenfolge entscheidend. `(1|a)` ist somit kein Element von `M1
 
 * Mächtigkeit
     * Die Mächtigkeit gibt an, wie viele Elemente eine Menge enthält.
-    * Ist beispielsweise M eine Menge mit drei Elementen, so ist ˋ|M| = 3ˋ
+    * Ist beispielsweise M eine Menge mit drei Elementen, so ist `|M| = 3`
 
 Quelle: [SQL-Relationenalgebra (S. 11-21)](../archiv/insy-game/jahrgang3/SQL-Relationenalgebra.pdf)
 
@@ -78,7 +78,7 @@ Quelle: [SQL-Relationenalgebra (S. 11-21)](../archiv/insy-game/jahrgang3/SQL-Rel
     * Beispiel: Gegeben ist die Menge `A = {0,2,3,8,9}` und `B = {3,4,16,19}` und eine Relation R zwischen A und B mit R: ist Teiler von = `{(2,4),(2,16),(3,3),(8,16)}`
 
 * Funktion
-    * Eine Relation R wird zur Funktion f zwischen zwei Mengen A und B, wenn jedes Element x A genau ein Element y B zum Partner hat (x|y) f.
+    * Eine Relation R wird zur Funktion f zwischen zwei Mengen A und B, wenn jedes Element x A genau ein Element y B zum Partner hat `(x|y)` f.
     * Eine Funktion drückt die Abhängigkeit einer Größe von einer anderen aus. Traditionell werden Funktionen als Regel oder Vorschrift definiert, die eine Eingangsgröße (Argument, meist x) in eine Ausgangsgröße (Funktionswert, meist y) transformiert (überführt).
     * Einfache Funktion: `y = 2x + 3`
 
