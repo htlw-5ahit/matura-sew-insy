@@ -66,7 +66,7 @@ Hierbei ist die Reihenfolge entscheidend. `(1|a)` ist somit kein Element von `M1
 
 * Mächtigkeit
     * Die Mächtigkeit gibt an, wie viele Elemente eine Menge enthält.
-    * Ist beispielsweise M eine Menge mit drei Elementen, so ist |M| = 3
+    * Ist beispielsweise M eine Menge mit drei Elementen, so ist ˋ|M| = 3ˋ
 
 Quelle: [SQL-Relationenalgebra (S. 11-21)](../archiv/insy-game/jahrgang3/SQL-Relationenalgebra.pdf)
 
