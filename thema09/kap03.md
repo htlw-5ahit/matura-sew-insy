@@ -72,7 +72,7 @@ ResultSet rs = stmt.executeQuery("SELECT * FROM your_func()");
 
 ## Welche Operationen können darauf ausgeführt werden?
 
-* `INSERT`, `UPDATE`, `DELETE`
+* `SELECT`, `INSERT`, `UPDATE`, `DELETE`
 * [siehe Thema 09 / Kapitel 02](./kap02.md)
 
 ## Welche Befehle stehen für das Einfügen/Updaten von Daten unter SQL zur Verfügung?
