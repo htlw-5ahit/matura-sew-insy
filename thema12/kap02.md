@@ -40,15 +40,15 @@
 	
 ![](./Fintechs_Archetypen.png)
 	
-	* Bsps.:
-		* N26
-		* Check24
-		* Klarna
-		* solarisBank
-		
-	* N26:
-		* Auf OnlineBanking spezialisiert
-		* Keine Gebühren auf Auslandszahlungen
+* Bsps.:
+	* N26
+	* Check24
+	* Klarna
+	* solarisBank
+
+* N26:
+	* Auf OnlineBanking spezialisiert
+	* Keine Gebühren auf Auslandszahlungen
 	
 ### Größte Banken (weltweit)
 * Erste 4 Chinesisch
@@ -56,24 +56,26 @@
 ![](./Top_Banken.png)
 
 ## DEFI
-	* Sammelbegriff für Finanzdienstleistungen, die über öffentliche Blockchains angeboten werden
-	* deckt einen Großteil des Leistungsumfangs von Banken ab
-	* zum Beispiel Zinsen erwirtschaften, Kredite aufnehmen, Geld verleihen, Versicherungen kaufen
-	* global, peer-to-peer
-	* keine Angabe von Klarnamen und offen für alle
-	* Keine Banken
-	* Ohne Mittelsmann
+
+* Sammelbegriff für Finanzdienstleistungen, die über öffentliche Blockchains angeboten werden
+* deckt einen Großteil des Leistungsumfangs von Banken ab
+* zum Beispiel Zinsen erwirtschaften, Kredite aufnehmen, Geld verleihen, Versicherungen kaufen
+* global, peer-to-peer
+* keine Angabe von Klarnamen und offen für alle
+* Keine Banken
+* Ohne Mittelsmann
 
 ## Kryptowährungen
-	* digitales Zahlungsmittel, welches auf kryptografischen Werkzeugen basiert
-	* Dies können beispielsweise Blockchains oder andere digitale Signaturen sein
-	* keine reguläre Währung
-	* durch ein Internetprotokoll überwacht
-	* Beispiele:
-		* Bitcoin
-		* Ethereum
-		* Ripple
-		* Tether
+
+* digitales Zahlungsmittel, welches auf kryptografischen Werkzeugen basiert
+* Dies können beispielsweise Blockchains oder andere digitale Signaturen sein
+* keine reguläre Währung
+* durch ein Internetprotokoll überwacht
+* Beispiele:
+	* Bitcoin
+	* Ethereum
+	* Ripple
+	* Tether
 
 ## Versicherung
 
