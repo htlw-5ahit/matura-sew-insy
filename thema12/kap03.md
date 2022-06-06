@@ -70,4 +70,5 @@
 	* Abteilungen so angeordnet, dass Kunde gerne einkaufen geht (beim Eingang angenehme Gerüche, usw.)
 	
 ## Industrie 4.0
-*
+
+![](https://www.tcw.de/uploads/html/unternehmen/images/ind_40_1_gr.jpg)
