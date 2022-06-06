@@ -45,9 +45,9 @@
 * Abdeckung der wesentlichen betriebswirtschaftlichen Funktionalitäten
 * Hohe Modularität bei gleichzeitiger Integration der Module untereinander
 * Unterstützung internationaler Anforderungen
-	*Mehrsprachigkeit
-	*Unicode-Fähigkeit (Darstellung asiatischer Schriften)
-	*Landesspezifische Funktionalitäten
+	* Mehrsprachigkeit
+	* Unicode-Fähigkeit (Darstellung asiatischer Schriften)
+	* Landesspezifische Funktionalitäten
 * Lauffähigkeit auf verschiedenen Rechner- und Betriebssystem Plattformen
 * Skalierbarkeit von kleinen Anwendungs-Szenarien auf große und sehr große Szenarien zu skalieren
 * Portabilität auf allen wesentlichen Betriebssystemen und HW-Plattformen einsetzbar
